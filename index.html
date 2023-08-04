@@ -1,52 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Karwaan Films</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <title>Karwaan Films</title>
+  <style>
+    .container {
+      display: flex;
+    }
+  </style>
 </head>
+
 <body>
+  <div id="on">
+    <video id="bgvideo" autoplay muted loop>
+      <source src="Front/loading1.webm" type="video/mp4" />
+    </video>
+    <div class="tex">KARWAAN FILMS</div>
+  </div>
+  <video class="one" autoplay muted loop>
+    <source src="Front/home1.webm" type="video/webm" />
+  </video>
+  <header tabindex="0">
+    <img src="Front/KARWAANLOGOWHITE (Custom).png" style="margin-left: 2%; cursor: pointer" />
+    <p style="
+          text-align: right;
+          margin-left: 58rem;
+          font-weight: 100;
+          text-decoration: underline;
+          color: #fff;
+          text-shadow: 2px 2px 2px #000;
+        ">
+      <a href="contact.html">Contact</a>
+    </p>
+  </header>
+  <div id="nav-container">
+    <div class="bg"></div>
+    <div class="button" tabindex="0">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </div>
+    <div id="nav-content" tabindex="0">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Photos</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Admin</a></li>
+        <span class="background">
+          <span class="social-media-buttons">
+              <span class="social-media-button">
+                  <img alt="Instagram" src="icons/instagram.svg" />
+              </span>
+              <span class="social-media-button">
+                  <img alt="Whatsapp" src="icons/icons8-whatsapp-32.png" />
+              </span>
+          </span>
+      </span>
+      </ul>
+    </div>
+  </div>
 
-    <video class="one" autoplay muted loop>
-        <source src="home1.webm" type="video/webm">
-      </video>
-      <header tabindex="0"><img src="KARWAANLOGOWHITE (Custom).png" style="margin-left: 2%;">
-          <p style="text-align:right; margin-left:58rem; font-weight:100; text-decoration:underline; color: #fff;"><a href="contact.html">Contact</a></p>
-        </header>
-        <div id="nav-container">
-          <div class="bg"></div>
-          <div class="button" tabindex="0">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </div>
-          <div id="nav-content" tabindex="0">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li class="small"><a href="#0">Facebook</a><a href="#0">Instagram</a></li>
-            </ul>
-          </div>
-        </div>
+  <!-- Add div for lines -->
+  <div class="container">
+    <span class="line line1"></span>
+    <span class="line line2"></span>
+  </div>
+  <div class="div1" onmouseover="animateLines(1)">
+    <div class="text">
+      <h3><a href="gallery.html">Photos</a></h3>
+    </div>
+    <video class="overlay-photo" autoplay loop muted>
+      <source src="Front/Photos.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div class="div2" onmouseover="animateLines(2)">
+    <div class="about">
+      <h3><a href="about.html">About Us</a></h3>
+    </div>
+    <div class="us">
+      <h1>ABOUT US</h1>
+      <br />
+      <div class="photo">
+        <img src="Front/a.png" class="harshit" />
+        <img src="Front/b.png" class="oshank" />
+      </div>
+      <br />
+      <h4>
+        Our story traces back to our childhood when happiness meant questes to
+        find hidden treasures in our vicinity.
+      </h4>
+      <br />
+      <button class="btn">Read More</button>
+    </div>
+  </div>
+  <div class="div3" onmouseover="animateLines(3)">
+    <div class="videos">
+      <h3>Videos</h3>
+    </div>
+    <video class="overlay-videos" autoplay loop muted>
+      <source src="Front/motion (1).webm" type="video/mp4" />
+    </video>
+  </div>
+  <script>
+    document.getElementById("on").style.display = "block";
 
-      <div class="text"><h3>Photos</h3></div>
-      <video class="overlay-photo" autoplay loop muted>
-        <source src="Photos.mp4" type="video/mp4">
-      </video>
-   
-      <div class="about"><h3><a href="about.html">About Us</a></h3></div>
-      <video class="overlay-about" autoplay loop muted>
-        <source src="motion (1).webm" type="video/webm">
-      </video>
+    setTimeout(function () {
+      document.getElementById("on").style.display = "none";
+      document.getElementById("tw").style.display = "block";
+    }, 5000);
+  </script>
 
-        <<div class="videos"><h3>Videos</h3></div>
-        <video class="overlay-videos" autoplay loop muted>
-          <source src="motion (1).webm" type="video/mp4">
-        </video> 
+  <script>
+    function animateLines(div) {
+      let lines = document.querySelectorAll(".line");
+      if (div === 1) {
+        lines[0].style.left = "43%";
+        lines[1].style.right = "40%";
+      } else if (div === 2) {
+        lines[0].style.left = "20%";
+        lines[1].style.right = "20%";
+      } else if (div === 3) {
+        lines[0].style.left = "20%";
+        lines[1].style.right = "43%";
+      }
+    }
+  </script>
 </body>
+
 </html>
