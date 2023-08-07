@@ -249,7 +249,7 @@ html, body {
     color: rgb(0, 238, 255);
   }
   
-  #nav-content li:not(.small) + .small {
+  /* #nav-content li:not(.small) + .small {
     margin-top: auto;
   }
   
@@ -265,7 +265,7 @@ html, body {
   }
   .small a + a {
     margin-left: 15px;
-  }
+  } */
   
   #nav-container:focus-within #nav-content {
     transform: none;
