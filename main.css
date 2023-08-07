@@ -249,9 +249,23 @@ html, body {
     color: rgb(0, 238, 255);
   }
   
-  #nav-content li:not(.small) + .small {
+  /* #nav-content li:not(.small) + .small {
     margin-top: auto;
   }
+  
+  .small {
+    display: flex;
+    align-self: center;
+  }
+  
+  .small a {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .small a + a {
+    margin-left: 15px;
+  } */
   
   #nav-container:focus-within #nav-content {
     transform: none;
@@ -479,7 +493,7 @@ html, body {
     display: grid;
     place-items: center;
     height: 100vh;
-    margin-top:57%;
+    margin-top:40%;
     margin-right:50%;
   }
   
