@@ -253,20 +253,6 @@ html, body {
     margin-top: auto;
   }
   
-  .small {
-    display: flex;
-    align-self: center;
-  }
-  
-  .small a {
-    font-size: 12px;
-    font-weight: 400;
-    color: #fff;
-  }
-  .small a + a {
-    margin-left: 15px;
-  }
-  
   #nav-container:focus-within #nav-content {
     transform: none;
   }

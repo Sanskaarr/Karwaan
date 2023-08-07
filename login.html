@@ -1,78 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Admin Panel Login</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <script src="login.js"></script>
 </head>
 
 <body>
-    <div class="login-wrapper">
-        <div class="login-side">
-            <div class="my-form__wrapper">
-                <div class="login-welcome-row">
-                    <h1>Welcome back &#x1F44F;</h1>
-                    <p>Please enter your details!</p>
-                </div>
-                <form class="my-form">
-                    <div class="socials-row">
-                        <a href="#" title="Use Google">
-                            <img src="login/google.png" alt="Google">
-                            Log in with Google
-                        </a>
-                        <a href="#" title="Use Apple">
-                            <img src="login/apple.png" alt="Apple">
-                            Log in with Apple
-                        </a>
-                    </div>
-                    <div class="divider">
-                        <div class="divider-line"></div>
-                        Or
-                        <div class="divider-line"></div>
-                    </div>
-                    <div class="text-field">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        <img alt="Email Icon" title="Email Icon" src="login/email.svg">
-                    </div>
-                    <div class="text-field">
-                        <label for="password">Password:</label>
-                        <input id="password" type="password" name="password" placeholder="Your Password" title="Minimum 6 characters at 
-                                    least 1 Alphabet and 1 Number" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
-                            required>
-                        <img alt="Password Icon" title="Password Icon" src="login/password.svg">
-                    </div>
-                    <input type="submit" class="my-form__button" value="Login">
-                    <div class="my-form__actions">
-                        <div class="my-form__row">
-                            <span>Did you forget your password?</span>
-                            <a href="#" title="Reset Password">
-                                Reset Password
-                            </a>
-                        </div>
-                        <div class="my-form__signup">
-                            <a href="#" title="Create Account">
-                                Create Account
-                            </a>
-                        </div>
-                    </div>
-                </form>
-            </div>
+    <div id="nav-container">
+        <div class="bg"></div>
+        <div class="button" tabindex="0">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
         </div>
-        <div class="info-side">
-            <img src="login/mock.png" alt="Photo" class="mockup">
-            <!-- <div class="welcome-message">
-                    <h2>Karwaan Films 👋</h2>
-                    <p>
-                       Your ultimate guide to navigating the world 
-                       and discovering new places with ease.
-                    </p>    
-                </div> -->
+        <div id="nav-content" tabindex="0">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Photos</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Admin</a></li>
+                <span class="background-button">
+                    <span class="social-media-buttons">
+                        <span class="social-media-button">
+                            <img alt="Instagram" src="icons/instagram.svg" />
+                        </span>
+                        <span class="social-media-button">
+                            <img alt="Whatsapp" src="icons/icons8-whatsapp-32.png" />
+                        </span>
+                    </span>
+                </span>
+            </ul>
         </div>
     </div>
-    <script src="script.js"></script>
+
+    <span class="background"></span>
+    <span class="centering">
+        <form method="post" action="#" class="my-form" id="login" name="login">
+            <span class="login-welcome-row">
+                <img class="login-welcome" src="login/astronaut.jpg" />
+                <!-- optimize the image in production -->
+                <h1>Login!</h1>
+            </span>
+            <div class="text-field">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" />
+                <img alt="Email Icon" title="Email Icon" src="login/email.svg" />
+            </div>
+            <div class="text-field">
+                <label for="password">Password:</label>
+                <input id="password" type="password" name="password" placeholder="Your Password"
+                    title="Minimum 6 characters at least 1 Alphabet and 1 Number" />
+                <img alt="Password Icon" title="Password Icon" src="login/password.svg" />
+            </div>
+            <input type="submit" class="my-form__button" value="Login" onclick="return adminlogin();"/>
+            <div class="my-form__actions">
+                <div class="my-form__row">
+                    <span>Did you forget your password?</span>
+                    <a href="#" title="Reset Password">Reset Password</a>
+                </div>
+                <div class="my-form__signup">
+                    <a href="#" title="Create Account">Create Account</a>
+                </div>
+            </div>
+        </form>
+    </span>
 </body>
 
 </html>
