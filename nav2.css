@@ -1,21 +1,6 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Ujash Patel
-
-This file contains the styling for the actual template, this
-is the file you need to edit to change the look of the
-template.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Insane Traveller 
-@Author: Ujash Patel
-@Developed By: Ujash Patel
-
-=====================================================================*/
-/*@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");*/
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css");
-/*@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 .navbar-brand {
     font-size: 1.5rem;
 }
@@ -56,8 +41,6 @@ template.
     margin-top: 10px;
 }
 
-/*=== fonts ====*/
-/*===== color =====*/
 a {
     cursor: pointer !important;
 }
@@ -460,10 +443,6 @@ body {
 
 .image-slider .slides {
     overflow: hidden;
-    /*    -webkit-animation-name: fade;
-        animation-name: fade;
-            -webkit-animation-duration: 0.6s;
-            animation-duration: 0.6s;*/
     display: none;
     height: 100%;
     background-size: cover;
@@ -579,7 +558,6 @@ li {
 
 * {
     outline: 0;
-    -webkit-appearance: none;
     -webkit-tap-highlight-color: transparent;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important;
@@ -688,7 +666,6 @@ li {
     }
 }
 
-/* Blog Card */
 .blog-card {
     width: 100%;
     height: 380px;

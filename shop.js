@@ -18,7 +18,6 @@ const addToCartBtns = document.querySelectorAll('.add-to-cart');
 const cartItems = document.querySelector('.cart-items');
 const cartTotal = document.querySelector('.cart-total');
 
-// Create cart array to store items
 let cart = [
     {
       title: 'Product 1', 

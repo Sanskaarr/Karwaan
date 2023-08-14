@@ -99,44 +99,6 @@ const bindeffects = function () {
 
         $("#picture-section").attr("style", "opacity:0;object-fit: cover;");
     });
-//
-//    $("#blog-link").mouseenter(function () {
-//        $("#video-col").removeClass("col-md-4");
-//        $("#blog-col").removeClass("col-md-4");
-//        $("#picture-col").removeClass("col-md-4");
-//
-//        $("#video-col").addClass("col-md-3");
-//        $("#blog-col").addClass("col-md-6");
-//        $("#picture-col").addClass("col-md-3");
-//        $("#blog-col").addClass("main-blog-section");
-//        $("#video-col").addClass('homepage');
-//        $("#picture-col").addClass('homepage');
-//        $("#blog-link").addClass('bottom-83per');
-//        $("#aboutus-link").hide();
-//        $(".bottom-line").hide();
-//
-//        $("#blog-section").show();
-//    });
-
-//    $("#blog-col").mouseleave(function () {
-//        $("#video-col").removeClass("col-md-3");
-//        $("#blog-col").removeClass("col-md-6");
-//        $("#picture-col").removeClass("col-md-3");
-//        $("#blog-col").removeClass("main-blog-section");
-//        $("#blog-link").removeClass('bottom-83per');
-//
-//        $("#video-col").addClass("col-md-4");
-//        $("#blog-col").addClass("col-md-4");
-//        $("#picture-col").addClass("col-md-4");
-//
-//        $("#blog-section").hide();
-//
-//        $("#aboutus-link").show();
-//        $("#video-col").removeClass('homepage');
-//        $("#picture-col").removeClass('homepage');
-//        $(".bottom-line").show();
-//    });
-
     $("#aboutus-link").mouseenter(function () {
         $("#video-col").removeClass("col-md-4");
         $("#blog-col").removeClass("col-md-4");
@@ -182,47 +144,6 @@ const bindeffects = function () {
         $(".btn-row").removeClass("dn");
     });
 
-//    $("#harshitpic").mouseenter(function () {
-//        $(".about-us-image").addClass("dn");
-//        $("#harshit-detail").removeClass("dn");
-//        $(".btn-row").addClass("dn");
-//        $("#harshit-detail").addClass("animate__animated animate__slideInLeft");
-//    });
-//    $("#harshit-detail").mouseleave(function () {
-//        $(".about-us-image").removeClass("dn");
-//        $(".btn-row").removeClass("dn");
-//        $("#mohit-detail").addClass("dn");
-//        $("#oshank-detail").addClass("dn");
-//        $("#harshit-detail").addClass("dn");
-//    });
-//
-//    $("#oshankpic").mouseenter(function () {
-//        $(".about-us-image").addClass("dn");
-//        $("#oshank-detail").removeClass("dn");
-//        $(".btn-row").addClass("dn");
-//        $("#oshank-detail").addClass("animate__animated animate__slideInLeft");
-//    });
-//    $("#oshank-detail").mouseleave(function () {
-//        $(".about-us-image").removeClass("dn");
-//        $(".btn-row").removeClass("dn");
-//        $("#mohit-detail").addClass("dn");
-//        $("#oshank-detail").addClass("dn");
-//        $("#harshit-detail").addClass("dn");
-//    });
-//
-//    $("#mohitpic").mouseenter(function () {
-//        $(".about-us-image").addClass("dn");
-//        $(".btn-row").addClass("dn");
-//        $("#mohit-detail").removeClass("dn");
-//        $("#mohit-detail").addClass("animate__animated animate__slideInLeft");
-//    });
-//    $("#mohit-detail").mouseleave(function () {
-//        $(".about-us-image").removeClass("dn");
-//        $(".btn-row").removeClass("dn");
-//        $("#mohit-detail").addClass("dn");
-//        $("#oshank-detail").addClass("dn");
-//        $("#harshit-detail").addClass("dn");
-//    });
     $(".detail-image").mouseleave(function () {
         $("#mohit-detail").addClass("dn");
         $("#oshank-detail").addClass("dn");
@@ -251,7 +172,6 @@ const changeSlide = function () {
     }
 
     slides[index].style.display = "block";
-//    dot[index].classList.add("active");
 
     index++;
 
@@ -260,7 +180,6 @@ const changeSlide = function () {
 
 $(document).ready(function () {
     setTimeout(hideLoader, 4000);
-    // right side main menu
 
     $("#right-home-btn,#right-home-btn-burgur").click(function () {
         openNav();
