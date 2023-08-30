@@ -413,7 +413,7 @@ SiteHomeService = {
         return jQueryAjax.get("getvideopage", 'text');
     },
     picturePage() {
-        return jQueryAjax.get("gallery.html");
+        return jQueryAjax.get("getpicturepage", 'text');
     },
     blogPage() {
         return jQueryAjax.get("getblogpage", 'text');
