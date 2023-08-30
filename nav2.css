@@ -22,8 +22,8 @@
 .navbar-collapse {
     -ms-flex-preferred-size: 0%;
     flex-basis: 0%;
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
     flex-grow: 1;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -45,9 +45,9 @@ a {
     cursor: pointer !important;
 }
 
-html {
+/* html {
     background-color: black !important;
-}
+} */
 
 .uppercase {
     text-transform: uppercase;
@@ -267,7 +267,7 @@ body {
 .bottom-line {
     display: block;
     width: 1px;
-    height: 40px;
+    height: 30px;
     background: #fff;
     bottom: 0;
     opacity: 1;
