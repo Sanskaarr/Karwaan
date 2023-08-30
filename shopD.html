@@ -7,18 +7,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Karwaan Shop</title>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="shop.css">
     </head>
     <body>
-        <section id="header">
+        <section id="header"> 
              <a href="#"><img src="Front/KARWAANLOGOWHITE (Custom).png" class="logo" style="margin-bottom: -2rem;"></a>
              <div>
                 <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
+                <li><a  href="index.html">Home</a></li>
                 <li><a href="gallery.html">Pictures</a></li>
                 <li><a href="video.html">VideoGraphy</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="shopD.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
                 <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
@@ -32,41 +32,14 @@
             </div>
         </section>   
   
-        <section id="opening">
-            <h4>Trade-In-Offer</h4>
-            <h2>Super value deals</h2>
-            <h1>On all Products</h1>
-            <button>Shop Now</button>
+        <section id="page-header">
+            <h2>Welcome</h2>
+            <p>Save more with coupons & upto 70% off</p>
         </section>
 
-        <section id="feature" class="section-p1">
-            <div class="fe-box">
-                <img src="img/features/f1.png" alt="">
-                <h6>Free Shipping</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/features/f2.png" alt="">
-                <h6>Online Order</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/features/f3.png" alt="">
-                <h6>Save Money</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/features/f5.png" alt="">
-                <h6>Happy Sell</h6>
-            </div>
-            <div class="fe-box">
-                <img src="img/features/f6.png" alt="">
-                <h6>24/7 Support</h6>
-            </div>
-        </section>
-
-        <section id="product1" class="section-p1">
-            <h2>Featured Products</h2>
-            <p>Summer Collection New Modern Design</p>
+        <section id="product1" class="section-p1"> 
             <div class="pro-container">
-                <div class="pro">
+                <div class="pro" onclick="window.location.href='sproduct.html'">  
                     <img src="img/products/f1.jpg" alt="">
                       <div class="des">
                         <span>Adidas</span>
@@ -194,18 +167,7 @@
                       </div>
                       <a href=""><i class="fal fa-shopping-cart cart"></i></a>
                 </div>
-            </div>
-        </section>
-
-        <section id="banner" class="section-m1">
-            <h4>Repair Services</h4>
-             <h2>Upto <span>70% Off</span> - All T-Shirt and Accessories</h2>
-             <button class="normal">Explore More</button>
-        </section>
-            
-        <section id="product1" class="section-p1">
-            <h2>New Arrivals</h2>
-            <p>Summer Collection New Modern Design</p>
+        
             <div class="pro-container">
                 <div class="pro">
                     <img src="img/products/n1.jpg" alt="">
@@ -338,9 +300,15 @@
             </div>
         </section>
 
+        <section id="pagination" class="section-p1">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
+        </section>
+
         <footer class="section-p1">
             <div class="col">
-                <img src="img/logo.png" class="logo">
+                <img src="Front/Updated.png" class="logo">
                 <h4>Contact</h4>
                 <p><Strong>Address:</Strong>Karwaan Films, Patel Nagar, Delhi</p>
                 <p><Strong>Phone:</Strong>+91-0014253665/ +9-7878787895 </p>
@@ -368,7 +336,7 @@
                 <img src="img/pay/pay.png" alt="">
             </div>
         </footer>
-        <script src="Shop.js"></script>
+        <script src="script.js"></script>
     </body>
  
 </html>
