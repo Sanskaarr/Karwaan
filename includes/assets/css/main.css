@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 #layer1-bgvideo {
     position: fixed;
     right: 0;
@@ -9,6 +10,7 @@
     min-height: 100%;
     width: 100%;
 }
+
 #myBtn {
     width: 200px;
     font-size: 18px;
@@ -18,13 +20,16 @@
     color: #fff;
     cursor: pointer;
 }
+
 #myBtn:hover {
     background: #ddd;
     color: black;
 }
+
 .navbar-custom.navbar-brand a {
     color: #fff;
 }
+
 .v-Separator::after {
     content: "";
     position: absolute;
@@ -35,19 +40,24 @@
     border-left: 1px solid #fff;
     transform: translate(-50%);
 }
+
 .v-m-heading,
 .playbtn {
     text-align: center;
 }
+
 hr {
     opacity: 1;
 }
+
 .col-items-center {
     text-align: center;
 }
+
 #btn-video {
     cursor: pointer !important;
 }
+
 .video-screen {
     background: rgba(0, 0, 0, 0.8);
     height: 100vh;
@@ -55,6 +65,7 @@ hr {
     margin-left: -4vh;
     margin-right: -4vh;
 }
+
 #mySpecialVideo {
     position: fixed;
     /* right: 0; */
@@ -62,9 +73,11 @@ hr {
     min-width: 100%;
     min-height: 100%;
 }
+
 #layer3-video {
     display: none;
 }
+
 .close {
     position: absolute;
     right: 32px;
@@ -74,9 +87,11 @@ hr {
     opacity: 0.3;
     display: none;
 }
+
 .close:hover {
     opacity: 1;
 }
+
 .close:before,
 .close:after {
     position: absolute;
@@ -86,6 +101,7 @@ hr {
     width: 2px;
     background-color: #333;
 }
+
 .close:before {
     transform: rotate(45deg);
 }
@@ -93,6 +109,7 @@ hr {
 .close:after {
     transform: rotate(-45deg);
 }
+
 /* left side menu */
 .sidenav {
     height: 100%;
@@ -107,6 +124,7 @@ hr {
     /* padding-top: 60px; */
     opacity: 0.9;
 }
+
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -115,9 +133,11 @@ hr {
     display: block;
     /* transition: 0.3s; */
 }
+
 .sidenav a:hover {
     color: #f1f1f1;
 }
+
 .sidenav .closebtn {
     /* position: absolute; */
     /* top: 0; */
@@ -126,10 +146,12 @@ hr {
     /* margin-left: 50px; */
     margin-top: -10px;
 }
+
 .sidenav .navbar-nav {
     padding-right: 4vh;
     margin-top: 10px !important;
 }
+
 .nav-item-seprator {
     font-size: 20px;
     color: rgba(255,255,255,.5);
@@ -137,32 +159,43 @@ hr {
     padding-right: 5px;
     padding-top: 10px;
 }
+
 .hide-me {
     display: none !important;
 }
+
 .show-me {
     display: block !important;
 }
+
 .opecity_zero {
     opacity: 0;
 }
+
 .navbar-dark .navbar-toggler {
     border-color: transparent;
 }
+
 @media only screen and (max-width: 991px) {
     #right-menu-overlay-close-btn {
         top: 23px;
         right: 23px;
         position: fixed;
     }
+
     #navbarNavDropdown .nav-item {
         text-align: center;
     }
+
     .nav-item-seprator {
         display: none !important;
     }
+
     #mySidenav .navbar {
         margin-top: 5rem;
     }
-}
 
+    #right-home-btn {
+        /*display: none;*/
+    }
+}

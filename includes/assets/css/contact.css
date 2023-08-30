@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+.color-white{
+    color: rgb(17, 17, 17);
+}
+/* body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+} */
+/* @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} */
+
+.customize-input{
+    margin-left: -5px !important;
+    margin-top: 5px ;
+}
+/* .label-input{
+    float: left;
+} */
+.mb-2rem{
+    margin-bottom: 2rem;
+}
+.span-input{
+    display: block;
+    overflow: hidden;
+    padding: 0 4px 0 6px;
+}
+.input-career{
+    color: black;
+    background: rgba(0, 0, 0, 0.0);
+    border: 1px solid #ced4da;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 10px;
+    width: 100%;
+}
