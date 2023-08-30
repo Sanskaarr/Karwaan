@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="nav.css" rel="stylesheet"/>
+    <link href="home.css" rel="stylesheet"/>
+    <link href="nav2.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="layer2-menu" style="background: rgba(0, 0, 0, 0.5);">
+        <div>
+            <div id="layer2-menu"  style="background: black;">
+              <nav class="navbar navbar-expand-lg navbar-custom navbar-dark" id="mainheaderid">
+                <a class="navbar-brand uppercase mobilecontact" href="contact.html" style="font-size: 20px; padding-bottom: 1.2rem;">Contact us</a>
+                <div class="collapse navbar-collapse" id="navbarToggler-right-home-menu" style="display: block">
+                  <ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-hidden">
+                    <li class="nav-item logodiv">
+                      <a id="logo-btn" class="uppercase" href="/">
+                        <img src="Front/KARWAANLOGOWHITE (Custom).png" class="logoimage navbar-brand " style="height: 80px; margin-top: -13px; margin-right:5rem;">
+                      </a>
+                    </li>
+                    <li class="nav-item active mt-15px">
+                      <a id="right-home-btn" class="navbar-brand uppercase"
+                        style="font-size: 20px;position: absolute; margin-top:0.5rem; margin-left:-5rem; " href="#">Menu <span class=""><i class="fa fa-bars"></i></span></a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div id="mySidenav" class="sidenav animate__animated">
+              <nav class="navbar navbar-expand-lg navbar-custom navbar-dark" style="transition: all 0.3s ease-in-out">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ms-auto mt-2 mt-lg-0 animate__animated animate__delay-1s">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item nav-item-seprator">/</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery1.html">Pictures</a>
+                    </li>
+                    <li class="nav-item nav-item-seprator">/</li>
+                    <li class="nav-item">
+                        <a id="navbar-video" class="nav-link" href="video.html">Videos</a>
+                    </li>
+                    <li class="nav-item nav-item-seprator">/</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blogs</a>
+                    </li>
+                    <li class="nav-item nav-item-seprator">/</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item nav-item-seprator">/</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item nav-item-seprator">/</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item nav-item-seprator">/</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Admin</a>
+                    </li>
+                    <li>
+                        <a id="right-menu-overlay-close-btn" href="#" class="closebtn">&times;</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+
+        </div>
+    <div class="form" id="signin-form">
+        <div class="form-group">
+            <input type="email" class="form-input" placeholder="Email" id="signin-email">
+            <span class="form-input-icon err">
+                <i class='bx bx-error-circle'></i>
+            </span>
+            <span class="form-input-icon success">
+                <i class='bx bx-check-circle'></i>
+            </span>
+            <span class="form-input-err-msg" data-err-for="signin-email"></span>
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-input" placeholder="Password" id="signin-password">
+            <span class="form-input-icon err">
+                <i class='bx bx-error-circle'></i>
+            </span>
+            <span class="form-input-icon success">
+                <i class='bx bx-check-circle'></i>
+            </span>
+            <span class="form-input-err-msg" data-err-for="signin-password"></span>
+        </div>
+        <div class="form-group form-group-checkbox">
+            <input type="checkbox" name="remember" id="remember">
+            <label for="remember" style="background-color: white;">
+                Remember Me
+                <i class='bx bx-check'></i>
+            </label>
+        </div>
+        <button class="form-btn" id="signin-btn">Sign in</button>
+        <span class="form-delimiter" style="background-color: white;">
+            or connect with
+        </span>
+        <div class="form-social">
+            <a href="#" class="form-social-item fb">
+                <i class='bx bxl-facebook' style="background-color: #3b5999;"></i>
+            </a>
+            <a href="#" class="form-social-item tw">
+                <i class='bx bxl-twitter' style="background-color: #1da1f2;"></i>
+            </a>
+            <a href="#" class="form-social-item gg">
+                <i class='bx bxl-google' style="background-color: #df4a32;"></i>
+            </a>
+        </div>
+        <span class="form-txt">
+            Don't have an account?
+            <a href="#">Sign up!</a>
+        </span>
+        <span class="form-txt">
+            <a href="#">Forgot password?</a>
+        </span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="Front/index.js"></script> -->
+    <script src="home.js"></script>
+    <script src="login.js"></script>
+
+</body>
+
+</html>
