@@ -39,16 +39,12 @@
 
 .navbar-brand {
     margin-top: 10px;
-    /* margin-right: 58rem; */
 }
 
 a {
     cursor: pointer !important;
 }
 
-/* html {
-    background-color: black !important;
-} */
 
 .uppercase {
     text-transform: uppercase;
@@ -105,7 +101,6 @@ body {
     position: fixed;
     width: 100%;
     height: 100vh;
-    /*background: #fff;*/
     z-index: 99999;
     -webkit-transition: opacity 0.3s linear;
     transition: opacity 0.3s linear;
@@ -667,51 +662,6 @@ li {
     }
 }
 
-.blog-card {
-    width: 100%;
-    height: 380px;
-    border-radius: 10px;
-    overflow: hidden;
-    background: #fff;
-    display: inline-block;
-    margin: 20px 10px;
-    vertical-align: top;
-    cursor: pointer;
-}
-
-.blog-card p {
-    white-space: none;
-}
-
-.blog-card__details {
-    margin-top: 100px;
-}
-
-.blog-card__title {
-    width: 100%;
-    height: 100px;
-    padding: 10px;
-}
-
-.blog-card:hover {
-    -webkit-box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
-}
-
-.blog-card__image {
-    width: 100%;
-    height: 150px;
-    margin: 0;
-}
-
-.blog-card__image img {
-    width: 100%;
-    height: 150px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    opacity: 0.8;
-}
-
 @media screen and (max-width: 1275px) {
     .blog-card {
         width: calc(95% / 3);
@@ -736,53 +686,6 @@ li {
     }
 }
 
-.blog-card__title {
-    width: 100%;
-    height: 75px;
-    padding: 10px;
-}
-
-.blog-card__title p {
-    margin: 8px 5px;
-    text-align: left;
-    color: black;
-    font-size: 1em;
-}
-
-.blog-card hr {
-    width: 95%;
-    border-top: 1px solid #ededed;
-    margin-top: 20px;
-}
-
-.blog-card__details {
-    width: 100%;
-    height: 60px;
-    position: relative;
-    bottom: 0;
-    padding: 15px;
-    display: block;
-}
-
-.blog-card__details--time, .blog-card__details--view, .blog-card__details--like {
-    float: left;
-    font-size: 0.75em;
-    margin-top: 11px;
-    color: #c0c0c0;
-}
-
-.blog-card__details--view {
-    float: right;
-}
-
-.blog-card__details--like {
-    float: right;
-    margin-left: 9px;
-}
-
-.blog-card__details--like i:hover {
-    color: #1382c1;
-}
 
 @media screen and (max-width: 480px) {
     .mobile-hidden {
@@ -861,7 +764,6 @@ li {
     background-color: rgb(255, 255, 255);
     margin-left: -25%;
     width: 98%;
-    /*padding-bottom: 45%;*/
     transition: all 2s;
     transform: scale(1);
 
@@ -906,4 +808,3 @@ li {
         transform: translateX(1%);
     }
 }
-/*# sourceMappingURL=style.css.map 
