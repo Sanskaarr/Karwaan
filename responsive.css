@@ -6,7 +6,7 @@
         display: none;
     }
 }
-/*//   1025pxâ€Šâ€”â€Š1200px: Desktops, large screens*/
+   /* 1025px 200px: Desktops, large screens */
 @media screen and (max-width: 1200px) {
     .text {
         font-size: 16px;
@@ -15,7 +15,7 @@
 
 }
 
-/*//   769pxâ€Šâ€”â€Š1024px: Small screens, laptops*/
+   /* 769pxâ€Šâ€”â€Š1024px: Small screens, laptops */
 @media screen and (max-width: 1024px) {
     #layer1-bgvideo {
         width: auto !important;
@@ -38,23 +38,26 @@
     .homehover:hover{
         color: white
     }
+
     /*Picture Page*/
     .centerdiv{
         top:5vh;
         width: 90%;
         position: relative;
-        /*margin: 45px;*/
     }
+
     .fancybox{
         width: auto;
         margin: 0;
-        /*margin-left: 30px;*/
     }
+
+
     .ulclass{
         width: auto;
         display: contents !important;
         flex-direction: row !important;
     }
+
     .gallery_product{
         width: 100%;
         height: auto;
@@ -86,7 +89,6 @@
 }
 
 
-/*//   481pxâ€Šâ€”â€Š768px: iPads, Tablets*/
 @media screen and (max-width: 768px) {
     #layer1-bgvideo {
         width: auto !important;
@@ -197,15 +199,11 @@
         height: auto !important;
         width: 100%;
     }
-    dark .navbar-brand:hover {
-        /* color: #fff; */
-    }
+    
     .navbar-brand:hover {
         color: #fff;
     }
-    .navbar-dark .navbar-brand {
-        /* color: #fff; */
-    }
+
     .bodyclass{
         background: #212529 !important;
     }
@@ -254,9 +252,8 @@
         display: none;
     }
 
+
     /*home-screen*/
-
-
     .bb-1px{
         border-bottom: 1px solid #505050;
     }
@@ -331,7 +328,6 @@
         margin-bottom: -30px;
     }
     .headerimage {
-        background-image: url(https://trekmunk.b-cdn.net/insanetraveller/images/about%20cover.jpg);
         top: -15px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -340,10 +336,12 @@
         position: relative;
         height: 150px;
     }
+
     .about_leadin_line{
         height: 50px;
         bottom: 69%;
     }
+
     .about_scroll_to {
         bottom: 445px;
     }
@@ -403,11 +401,13 @@
         height:200px;
     }
 }
+
 @media  (max-width: 414px) {
     #layer1-bgvideo {
         width: auto !important;
         object-fit: fill;
     }
+    
     .gallery_product{
         width: 100%;
         height: auto;

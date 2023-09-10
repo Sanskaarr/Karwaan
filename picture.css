@@ -1,13 +1,3 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 7 Jun, 2021, 6:07:33 PM
-    Author     : iconicus-1
-*/
-
 * {
     box-sizing: border-box;
 }
@@ -71,6 +61,111 @@ section{
     padding: 30px 0;
 }
 
+
+.viewbox-body{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    overflow: auto;
+}
+
+.viewbox-content .viewbox-image{
+    width: 100%;
+    height: 100%;
+}
+.viewbox-button-default{
+    cursor: pointer;
+    height: 64px;
+    width: 64px;
+}
+.viewbox-button-default > svg{
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    fill: inherit;
+    pointer-events: none;
+    transform: translateX(0px);
+}
+.viewbox-button-default{
+    fill: #999;
+}
+.viewbox-button-default:hover{
+    fill: #fff;
+}
+
+.viewbox-button-close{
+    position:absolute;
+    top:10px;
+    right: 10px;
+    z-index:9;
+}
+.viewbox-button-full-screen{
+    position:absolute;
+    top:84px;
+    right: 10px;
+    z-index:9;
+}
+.viewbox-button-next,
+.viewbox-button-prev{
+    position:absolute;
+    top: 50%;
+    height: 128px;
+    width: 128px;
+    margin: -64px 0 0;
+    z-index:9;
+}
+.viewbox-button-next{
+    right: 10px;
+}
+.viewbox-button-prev{
+    left: 10px;
+}
+@media (max-width: 480px) {
+    .viewbox-button-close{
+        top: 0;
+        right: 0;
+    }
+    .viewbox-button-next,
+    .viewbox-button-prev{
+        height: 81px;
+        width: 81px;
+        margin-top: -40px;
+    }
+    .viewbox-button-next{
+        right:-15px;
+        display: none;
+    }
+    .viewbox-button-prev{
+        left:-15px;
+        display: none;
+    }
+}
+.viewbox-container .loader{
+    widows: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin:-25px 0 0 -25px;
+}
+.viewbox-container .loader *{
+    margin: 0;
+    padding: 0;
+}
+.viewbox-container .loader .spinner{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+}
+
 /*	gallery */
 
 .gallery-title{
@@ -83,13 +178,8 @@ section{
 .filter-button{
     font-size: 18px;
     list-style: none;
-    /*                border: 2px solid #3F6184;
-                    padding:5px 10px;
-                    text-align: center;
-                    color: #3F6184;
-                    margin-bottom: 30px;
-                    background:transparent;*/
 }
+
 .filter-button:hover,
 .filter-button:focus,
 .filter-button.active{
@@ -131,8 +221,6 @@ section{
     overflow-x: hidden;
 }
 #grid-container .ulclass {
-    /*overflow-x: scroll;*/
-    /*overflow-y: hidden;*/
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -178,18 +266,16 @@ img.dash_arrow {
 div.wpape_gallery_button .apebtn-dark, div.wpape_gallery_button .apebtn-dark-flat {
     background-color: transparent;
     border-color: transparent;
-    /*color: #FFF !important;*/
+    
 }
 .wpape_gallery_button .active {
     border-bottom: 2px solid white !important;
 }
 div.wpape_gallery_button .apebtn {
     color: white;
-    /*background-color: black;*/
     border-color: white;
     font-weight: 300;
     font-size: 16px;
-    /*font-family: "Poppins", sans-serif;*/
     text-decoration: none;
     text-align: center;
     line-height: 40px;
@@ -382,7 +468,7 @@ div.wpape_gallery_button .apebtn {
     width: 96%;
 }
 .dropbtn {
-    /*background-color: #4CAF50;*/
+
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -429,9 +515,6 @@ div.wpape_gallery_button .apebtn {
     display: block;
 }
 
-.dropdown:hover .dropbtn {
-    /*background-color: #3e8e41;*/
-}
 .img-info{
     display: none;
 }
@@ -455,3 +538,4 @@ body {
 .w-100per{
     width: 100% !important;
 }
+
