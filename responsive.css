@@ -15,7 +15,7 @@
 
 }
 
-   /* 769pxâ€Šâ€”â€Š1024px: Small screens, laptops */
+   /* 769px 1024px: Small screens, laptops */
 @media screen and (max-width: 1024px) {
     #layer1-bgvideo {
         width: auto !important;
@@ -78,10 +78,6 @@
     .mt-20{
         margin-top: 20px;
     }
-
-    .blog-card{
-        margin-left: 0px;
-    }
     .clientpage {
         padding-left: 15px !important;
         padding-right: 15px !important;
@@ -117,8 +113,8 @@
     .homehover:hover{
         color: white
     }
-    /*Picture Page*/
 
+    /*Picture Page*/
     .centerdiv{
         top:7vh;
         width: 90%;
@@ -263,6 +259,7 @@
     .homehover:hover{
         color: white
     }
+    
     /*Picture Page*/
     .centerdiv{
         top:30vh;
@@ -688,9 +685,6 @@
         top: 10vh;
         width: 95%;
         position: relative;
-    }
-    .blog-card{
-        margin-left: 0px;
     }
     .mt-20{
         margin-top: 20px;

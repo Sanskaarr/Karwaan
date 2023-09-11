@@ -93,6 +93,7 @@ hr {
 .close:after {
     transform: rotate(-45deg);
 }
+
 /* left side menu */
 .sidenav {
     height: 100%;
@@ -103,8 +104,6 @@ hr {
     right: 0;
     background: rgba(0, 0, 0, 0.8);
     overflow-x: hidden;
-    /* transition: 0.5s; */
-    /* padding-top: 60px; */
     opacity: 0.9;
 }
 .sidenav a {
@@ -113,19 +112,17 @@ hr {
     font-size: 20px;
     color: #818181;
     display: block;
-    /* transition: 0.3s; */
 }
+
+
 .sidenav a:hover {
     color: #f1f1f1;
 }
 .sidenav .closebtn {
-    /* position: absolute; */
-    /* top: 0; */
-    /* right: 25px; */
     font-size: 36px;
-    /* margin-left: 50px; */
     margin-top: -10px;
 }
+
 .sidenav .navbar-nav {
     padding-right: 4vh;
     margin-top: 10px !important;
