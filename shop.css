@@ -703,3 +703,13 @@ footer a:hover{
     height: 40vh;
   }
   }
+  .bt{
+    padding:1px;
+    border-radius:40px;
+
+    width:2rem;
+    height:2rem;
+    border:1px solid black;
+  margin-left:40rem;
+  margin-top: -8rem;
+  }
