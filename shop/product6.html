@@ -1,202 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Karwaan Shop</title>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-        <link rel="stylesheet" href="../shop.css">
-    </head>
-    <body>
-        <section id="header"> 
-             <a href="#"><img src="../Front/KARWAANLOGOWHITE (Custom).png" class="logo" style="margin-bottom: -2rem;"></a>
-             <div>
-                <ul id="navbar">
-                <li><a  href="../index.html">Home</a></li>
-                <li><a href="../gallery.html">Pictures</a></li>
-                <li><a href="../video.html">VideoGraphy</a></li>
-                <li><a href="../about.html">About Us</a></li>
-                <li><a class="active" href="../shopD.html">Shop</a></li>
-                <li><a href="../blog.html">Blog</a></li>
-                <li><a href="../contact.html">Contact Us</a></li>
-                <li id="lg-bag"><a href="../cart.html"><i class="far fa-shopping-bag"></i></a></li>
-                <a href="#" id="close"><i class="far fa-times"></i></a>
-            </ul>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/shop.css">
+    <link rel="stylesheet" href="/navbar.css">
+    <link rel="stylesheet" href="/responsive.css">
+    <title>Product 1</title>
+</head>
 
-            <div id="mobile">
-                <a href="../cart.html"><i class="far fa-shopping-bag"></i></a>
-                <i id="bar" class="fas fa-outdent"></i>
-            </div>
-        </section>   
-
-        <section id="prodetails" class="section-p1">
-            <div class="single-pro-image">
-                <img src="../gallery/Uncategorized1.jpg" width="100%" id="MainImg">
-
-                <!-- <div class="small-img-group">
-                    <div class="small-img-col">
-                        <img src="../img/products/f5.jpg" width= 100% class="small-img">
-                    </div>
-                    <div class="small-img-col">
-                        <img src="../img/products/f7.jpg" width= 100% class="small-img">
-                    </div>
-                    <div class="small-img-col">
-                        <img src="../img/products/f8.jpg" width= 100% class="small-img">
-                    </div>
-                    <div class="small-img-col">
-                        <img src="../img/products/f4.jpg" width= 100% class="small-img">
-                    </div>
-                </div> -->
-            </div>
-
-            <div class="single-pro-details">
-                <h6>Home / T-Shirts</h6> 
-                <h4>Men's Fashion T Shirt</h4>
-                <h2>₹1200/-</h2>
-                <!-- <select>
-                    <option>Select Sizes</option>
-                    <option>S</option>
-                    <option>M</option>
-                    <option>XL</option>
-                    <option>XXL</option>
-                </select> -->
-                <input type="number" value="1">
-                <button class="normal ">Add  To Cart</button>
-                <h4>Product Details</h4>
-                <span>
-                    The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz. per
-                    sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey
-                    knit provides unmatched comfort with each wear. Featuring a taped neck and
-                    shoulder, and a seamless double-needle collar, and available in a range of
-                    colors, it offers it all in the ultimate head-turning package 
-            </span>                   
-           </div> 
-        </section>
-
-        <section id="product1" class="section-p1">
-            <h2>Featured Painting</h2>
-            <p>Summer Collection New Modern Design</p>
-            <div class="pro-container">
-                <div class="pro" onclick="window.location.href='product9.html'">
-                    <img src="../gallery/Uncategorized6.jpg" alt="">
-                      <div class="des">
-                        <span>Karwaan</span>
-                        <h5>Uncategorized Painting</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                           <h4>₹ 7000/-</h4>
-                      </div>
-                      <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+<body>
+    <!-- NavBar Starting  -->
+    <div>
+        <div id="mySidenav" class="sidenav animate__animated">
+            <nav class="navbar navbar-expand-lg navbar-custom navbar-dark" style="transition: all 0.3s ease-in-out">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0 animate__animated animate__delay-1s">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item nav-item-seprator">/</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/gallery.html">Pictures</a>
+                        </li>
+                        <li class="nav-item nav-item-seprator">/</li>
+                        <li class="nav-item">
+                            <a id="navbar-video" class="nav-link" href="/video.html">Videos</a>
+                        </li>
+                        <li class="nav-item nav-item-seprator">/</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/blog.html">Blogs</a>
+                        </li>
+                        <li class="nav-item nav-item-seprator">/</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item nav-item-seprator">/</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html">About Us</a>
+                        </li>
+                        <li class="nav-item nav-item-seprator">/</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item nav-item-seprator">/</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login.html">Admin</a>
+                        </li>
+                        <li>
+                            <a id="right-menu-overlay-close-btn" href="#" class="closebtn">&times;</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="pro" onclick="window.location.href='product10.html'">
-                    <img src="../gallery/Uncategorized3.jpg" alt=""> 
-                      <div class="des">
-                        <span>Adidas</span>
-                        <h5>Cartoon T-Shirts</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                           <h4>₹700/-</h4>
-                      </div>
-                      <a href=""><i class="fal fa-shopping-cart cart"></i></a>
-                </div> 
-                 <div class="pro" onclick="window.location.href='product11.html'">
-                    <img src="../gallery/Uncategorized2.jpg" alt="">
-                      <div class="des">
-                        <span>Adidas</span>
-                        <h5>Cartoon T-Shirts</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                           <h4>₹700/-</h4>
-                      </div>
-                      <a href=""><i class="fal fa-shopping-cart cart"></i></a>
-                </div>  
-                <div class="pro" onclick="window.location.href='product12.html'">
-                    <img src="../gallery/Landscape6.jpg" alt="">
-                      <div class="des">
-                        <span>Adidas</span>
-                        <h5>Cartoon T-Shirts</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                           <h4>₹700/-</h4>
-                      </div>
-                      <a href=""><i class="fal fa-shopping-cart cart"></i></a>
-                </div>  
-            </div>
-        </section>
+            </nav>
+        </div>
 
-        <footer class="section-p1">
-            <div class="col">
-                <img src="../Front/Updated.png" class="logo">
-                <h4>Contact</h4>
-                <p><Strong>Address:</Strong>Karwaan Films, Patel Nagar, Delhi</p>
-                <p><Strong>Phone:</Strong>+91-0014253665/ +9-7878787895 </p>
-                <div class="follow">
-                     <h4>Follow Us</h4>
-                     <div class="icon">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>   
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-youtube"></i>
-                     </div>
+        <div id="layer2-menu" class="content">
+            <nav class="navbar navbar-expand-lg navbar-custom navbar-dark" id="mainheaderid">
+                <a class="navbar-brand uppercase mobilecontact" href="/contact.html"
+                    style="font-size: 20px; padding-bottom: 1.2rem">Contact us</a>
+                <div class="collapse navbar-collapse" id="navbarToggler-right-home-menu" style="display: block">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-hidden">
+                        <li class="nav-item logodiv">
+                            <a id="logo-btn" class="uppercase" href="/">
+                                <img src="/Front/KARWAANLOGOWHITE (Custom).png" class="logoimage navbar-brand"
+                                    style="height: 80px; margin-top: -13px" />
+                            </a>
+                        </li>
+                        <li class="nav-item active mt-15px">
+                            <a id="right-home-btn" class="navbar-brand uppercase"
+                                style="font-size: 20px; padding-bottom: 1.2rem !important; position: relative; top: 12px;"
+                                href="#">Menu <span class=""><i class="fa fa-bars"></i></span></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-show">
+                        <li class="nav-item active">
+                            <a id="logo-btn" class="uppercase" href="/">
+                                <img src="/Front/KARWAANLOGOWHITE (Custom).png"
+                                    style="margin-top: -7px; height: 70px; margin-right: 0rem"
+                                    class="logoimage navbar-brand" />
+                            </a>
+                            <a id="right-home-btn" class="navbar-brand uppercase"
+                                style="margin-right: 0rem;padding-bottom: 0.9rem !important; margin-top: 0px;" href="#">
+                                <span class=""><i class="fa fa-bars" style="margin: 8px;"></i></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="/gallery/Uncategorized1.jpg" alt="" width="100%" id="MainImg">
+        </div>
+
+        <div class="single-pro-details">
+            <h3>Karwaan Pictures</h3>
+            <h4>Uncategorized</h4>
+            <input type="number" value="1">
+            <button class="normal">Add to Cart</button>
+            <h4>Product Description</h4>
+            <span>A serene, crystal-clear lake mirrors the sky's delicate palette, transforming its surface into an
+                ephemeral canvas of pastel hues. Wispy clouds, touched by the gentle blush of morning, drift lazily
+                across the heavens, their reflections dancing gracefully upon the water's surface. Along the lake's
+                edge, nature's guardians stand tall and proud. Ancient, moss-covered trees reach skyward with gnarled
+                branches, their leaves quivering with anticipation in the tender breeze. Their roots, like weathered
+                fingers, clutch the earth, anchoring them to this sacred place.
+            </span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Painting</h2>
+        <p>New Modern Design Collection</p>
+
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='product9.html'">
+                <img src="/gallery/Uncategorized6.jpg">
+                <div class="des">
+                    <Span>Karwaan</Span>
+                    <h5>Uncategorized Painting</h5>
                 </div>
             </div>
-
-            <div class="col">
-                <h4>About</h4>
-                <a href="../about.html">About Us</a>
-                 <a href="#">Privacy Policy</a>
-                 <a href="#">Terms & Conditions</a>
-                 <a href="../contact.html">Contact Us</a>
+         <div class="pro" onclick="window.location.href='product11.html'">
+            <img src="/gallery/Uncategorized2.jpg">
+            <div class="des">
+                <Span>Karwaan</Span>
+                <h5>Uncategorized Painting</h5>
             </div>
-
-            <div class="col payments">
-                <h4>Secured Payment Gateways</h4>
-                <img src="../img/pay/pay.png" alt="">
+        </div>
+        <div class="pro" onclick="window.location.href='product12.html'">
+            <img src="/gallery/Landscape6.jpg">
+            <div class="des">
+                <Span>Karwaan</Span>
+                <h5>Uncategorized Painting</h5>
             </div>
-        </footer>
+        </div>
+    </div>
+    </section>
 
-        <script>
-            var MainImg = document.getElementById('MainImg');
-            var smallimg = document.getElementsByClassName('small-img');
+    <footer class="section-p1">
+        <div class="col">
+            <img src="/Front/KARWAANLOGOWHITE (Custom).png" alt="" class="logo">
+            <h4>Contact Us:</h4>
+            <p><Strong>Address:</Strong>Karwaan Films, Patel Nagar, Delhi</p>
+            <p><Strong>Phone:</Strong>+91-0014253665/ +9-7878787895 </p>
+            <div class="follow">
+                <h4>Connect With Us:</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
 
-            smallimg[0].onclick = function(){
-                MainImg.src = smallimg[0].src;
-            }
-            smallimg[1].onclick = function(){
-                MainImg.src = smallimg[1].src;
-            }
-            smallimg[2].onclick = function(){
-                MainImg.src = smallimg[2].src;
-            }
-            smallimg[3].onclick = function(){
-                MainImg.src = smallimg[3].src;
-            }
-        </script>
+        <div class="col">
+            <h4>About Us:</h4>
+            <a href="/about.html">About Us</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms & Conditions</a>
+            <a href="/contact.html">Contact Us</a>
+        </div>
 
-        <script src="../shop.js"></script>
-    </body>
- 
+        <div class="col payments">
+            <h4>Secured Payments Gateway</h4>
+            <img src="/img/pay/pay.png" alt="">
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="/js/home.js"></script>
+</body>
+
 </html>
