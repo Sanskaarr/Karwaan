@@ -5,81 +5,81 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Videos</title>
-	<script src='https://karwaan.b-cdn.net/js/jquery.min.js'></script>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link rel='stylesheet' href='video.css'/>
-	<link rel="stylesheet" href="vnavbar.css">
+	<link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="responsive.css">
 	</head>
 
-<body class="page-template page-template-page-templates page-template-motion page-template-page-templatesmotion-php page page-id-60" style="background: white !important;">
-	<div id="layer2-menu" class="content">
-        <nav class="navbar navbar-expand-lg navbar-custom navbar-dark" id="mainheaderid" style="background-color: black;">
-            <a class="navbar-brand uppercase mobilecontact" href="contact.html"
-                style="font-size: 20px; padding-bottom: 1.2rem">Contact us</a>
-            <div class="collapse navbar-collapse" id="navbarToggler-right-home-menu" style="display: block">
-                <ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-hidden">
-                    <li class="nav-item logodiv">
-                        <a id="logo-btn" class="uppercase" href="/">
-                            <img src="https://karwaan.b-cdn.net/Front/KARWAANLOGOWHITE (Custom).png" class="logoimage navbar-brand"
-                                style="height: 80px; margin-top: -13px" />
-                        </a>
-                    </li>
-                    <li class="nav-item active mt-15px">
-                        <a id="right-home-btn" class="navbar-brand uppercase"
-                            style="font-size: 20px; padding-bottom: 1.2rem !important; position: relative; top:12px;" href="#">Menu <span class="">
-                                <i class="fa fa-bars"></i></span></a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-show">
-                    <li class="nav-item active">
-                        <a id="logo-btn" class="uppercase" href="/">
-                            <img src="https://karwaan.b-cdn.net/Front/KARWAANLOGOWHITE (Custom).png" style="margin-top: -7px; height: 70px; margin-right: 0rem" class="logoimage navbar-brand" />
-                        </a>
-                        <a id="right-home-btn" class="navbar-brand uppercase" style="margin-right: 0rem;padding-bottom: 0.9rem !important; margin-top: 0px;" href="#">
-                         <span class=""><i class="fa fa-bars"></i></span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        </div>
-
-      <div id="mySidenav" class="sidenav animate__animated">
-        <nav class="navbar navbar-expand-lg navbar-custom navbar-dark" style="transition: all 0.3s ease-in-out">
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto mt-2 mt-lg-0 animate__animated animate__delay-1s">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
+<body class="page-template page-template-page-templates page-template-motion page-template-page-templatesmotion-php page page-id-60">
+	 <!-- Navbar Starting -->
+	 <div>
+		<div id="mySidenav" class="sidenav animate__animated">
+			<nav class="navbar navbar-expand-lg navbar-custom navbar-dark" style="transition:all 0.3s ease-in-out;">
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ms-auto mt-2 mt-lg-0 animate__animated animate__delay-1s">
+						<li class="nav-item">
+							<a class="nav-link" href="home.html">Home</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="gallery.html" class="nav-link active">Picture</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="video.html" class="nav-link" id="navbar-video">Videos</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="client.html" class="nav-link">Clients</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="about.html" class="nav-link">About</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="contact.html" class="nav-link">Contact</a>
+						</li>
+						<li>
+							<a href="" id="right-menu-overlay-close-btn" class="closebtn">&times;</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	
+		<div id="layer2-menu" class="content">
+		<nav class="navbar navbar-expand-lg navbar-custom navbar-dark" id="mainheaderid">
+			<a class="navbar-brand uppercase mobilecontact"  href="" style="font-size: 18px; padding-bottom: 1.2rem; margin-left: 10px;">Contact Us</a>
+			<div class="collapse navbar-collapse" id="navbarToggler-right-home-menu" style="display: block;"> 
+				<ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-hidden">
+					<li class="nav-item logodiv">
+						<a id="logo-btn"  class="uppercase" href="">
+							<img src="https://karwaan.b-cdn.net/Front/KARWAANLOGOWHITE%20(Custom).png" class="logoimage navbar-brand" style="height: 80px; margin-top: -13px;">
+						</a>
 					</li>
-					<li class="nav-item nav-item-seprator">/</li>
-					<li class="nav-item">
-						<a href="gallery.html" class="nav-link">Picture</a>
+					<li class="nav-item active mt-15px">
+						<a id="right-home-btn" class="navbar-brand uppercase" style="font-size: 20px; padding-bottom: 1.2rem !important; position: relative; top: 12px;" href="#">Menu <span><i class="fa-solid fa-bars"></i></span></a>
 					</li>
-					<li class="nav-item nav-item-seprator">/</li>
-					<li class="nav-item">
-						<a href="video.html" class="nav-link active" id="navbar-video">Videos</a>
+				</ul>
+	
+				<ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-show">
+					<li class="nav-item active">
+						<a id="logo-btn" class="uppercase"> 
+						<img class="logoimage navbar-brand" src="https://karwaan.b-cdn.net/Front/KARWAANLOGOWHITE%20(Custom).png" style="height: 70px; margin-top: -7px; margin-right: -19px;">
+					</a>
+					<a id="right-home-btn" class="navbar-brand uppercase" style=" padding-bottom: 0.9rem !important; margin-top: 0px; margin-left: 8px;" href="#" >
+					<span><i class="fa-solid fa-bars"></i></span></a>
 					</li>
-					<li class="nav-item nav-item-seprator">/</li>
-					<li class="nav-item">
-						<a href="client.html" class="nav-link">Clients</a>
-					</li>
-					<li class="nav-item nav-item-seprator">/</li>
-					<li class="nav-item">
-						<a href="about.html" class="nav-link">About</a>
-					</li>
-					<li class="nav-item nav-item-seprator">/</li>
-					<li class="nav-item">
-						<a href="contact.html" class="nav-link">Contact</a>
-					</li>
-					<li>
-						<a href="" id="right-menu-overlay-close-btn" class="closebtn">&times;</a>
-					</li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-
-
+				</ul>
+			</div>
+	   </nav>
+	</div>
+	</div>
+	
 	<!------  Videos   -->
 
 	<div id="content" class="main_content">
@@ -206,9 +206,9 @@
 				</p>
 				<button class="icon_text_container icon_on_right" id="motion_scroll_right">
 					<span class="light_uppercase">Scroll <img class="dash_arrow"
-							src="https://karwaan.b-cdn.net/Videos/dash_arrow_right.png"/></span>
+							src="https://karwaan.b-cdn.net/Videos/dash_arrow_right.png" /></span>
 				</button>
-			</div> 
+			</div>
 
 		</div>
 
@@ -256,40 +256,42 @@
 			<a class="mobile_motion_thumbnail" href="https://karwaan.b-cdn.net/Videos/Kashmir%20Tourism%20Video%20_%20Aerial%20_%20Great%20Lakes%20Trek%20_%20Gurez%20valley%20_%20Incredible%20India%20_%20Places%20to%20see.mp4" 
 			style="background-image: url(https://karwaan.b-cdn.net/Videos/6.png);">
 				<div class="mobile_motion_thumbnail_cover">
-					<!-- <h2>Director&#8217;s Reel</h2> -->
 					<p>5:04</p>
 				</div>
 			</a>
 		</div>
 	</div>
 
+	<footer style="background-color: #000;">
+		<section class="d-flex align-items-center" style="height:70px; background-color: black;">
+			<a href="#" class="text-white text-decoration-none karwaan" style=" margin-left: 12px;">Karwaan Films</a>
+		  
+			<div class="ms-auto social-icons">
+			  <a href="#" class="text-white me-3">
+				<i class="fa-brands fa-x-twitter fa-lg"></i>
+			  </a>
+		  
+			  <a href="#" class="text-white me-3">
+				<i class="fa-brands fa-facebook-f fa-lg"></i>
+			  </a>
+		  
+			  <a href="#" class="text-white me-3">
+				<i class="fa-brands fa-instagram fa-xl"></i>
+			  </a>
+		  
+			  <a href="#" class="text-white me-3">
+				<i class="fa-brands fa-whatsapp fa-xl"></i>
+			  </a>
+			</div>
+		</section>
+	</footer>
 	
 
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+	<script src="navbar.js"></script>
 	<script src='https://karwaan.b-cdn.net/Videos/min.js' ></script>
 	<script src='https://karwaan.b-cdn.net/Videos/min1.js'></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="navbar.js"></script>
-	<script>
-	  $(function () {
-		  $(".fancybox").viewbox();
-		  (function () {
-			  var vb = $(".popup-link").viewbox();
-			  $(".popup-open-button").click(function () {
-				  vb.trigger("viewbox.open");
-			  });
-			  $(".close-button").click(function () {
-				  vb.trigger("viewbox.close");
-			  });
-		  })();
-	  });
-  </script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-		gtag('config', 'G-DT014V4SW2');
-	</script>
-
+	
 </body>
 </html>

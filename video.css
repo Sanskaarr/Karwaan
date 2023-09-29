@@ -1,3 +1,4 @@
+@import url(//hello.myfonts.net/count/31ff25);
 button{
 	color: inherit;
 	font: inherit;
@@ -111,9 +112,12 @@ section.motion_videos::-webkit-scrollbar {
     color: #FFF;
     opacity: 0;
 }
+/* .motion_overlay h1 {
+    margin-bottom: 0
+} */
 .motion_bottom_container {
     position: absolute;
-    bottom: 50px;
+    bottom: 90px;
     width: 85%;
     left: 0;
     margin: 0 auto;
@@ -310,7 +314,7 @@ h1,p {
 h1{
     letter-spacing: .1em
 }
-a    {
+a {
     color: inherit;
     outline: 0;
     transition: color .2s ease-in-out
