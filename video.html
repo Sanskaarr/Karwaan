@@ -6,126 +6,105 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Videos</title>
 	<script src='https://karwaan.b-cdn.net/js/jquery.min.js'></script>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel='stylesheet' href='v.css'/>
-	<link rel="stylesheet" href="vnavbar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="navbar.css">
+	<link rel='stylesheet' href='video.css'/>	
     <link rel="stylesheet" href="responsive.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<style>
-		/* Footer CSS */
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
 
-.karwaan{
-    font-size: 19px;
-}
-
-.social-icons{
-    font-size: small;
-}
-
-.social-icons a:hover{
-    opacity: 0.5;
-}
-
-	</style>
-	</head>
+</head>
 
 <body class="page-template page-template-page-templates page-template-motion page-template-page-templatesmotion-php page page-id-60" style="background: white !important;">
-	<div id="layer2-menu" class="content">
-        <nav class="navbar navbar-expand-lg navbar-custom navbar-dark" id="mainheaderid" style="background-color: black;">
-            <a class="navbar-brand uppercase mobilecontact" href="contact.html"
-                style="font-size: 20px; padding-bottom: 1.2rem">Contact us</a>
-            <div class="collapse navbar-collapse" id="navbarToggler-right-home-menu" style="display: block">
-                <ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-hidden">
-                    <li class="nav-item logodiv">
-                        <a id="logo-btn" class="uppercase" href="/">
-                            <img src="https://karwaan.b-cdn.net/Front/KARWAANLOGOWHITE (Custom).png" class="logoimage navbar-brand"
-                                style="height: 80px; margin-top: -13px" />
-                        </a>
-                    </li>
-                    <li class="nav-item active mt-15px">
-                        <a id="right-home-btn" class="navbar-brand uppercase"
-                            style="font-size: 20px; padding-bottom: 1.2rem !important; position: relative; top:12px;" href="#">Menu <span class="">
-                                <i class="fa fa-bars"></i></span></a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-show">
-                    <li class="nav-item active">
-                        <a id="logo-btn" class="uppercase" href="/">
-                            <img src="https://karwaan.b-cdn.net/Front/KARWAANLOGOWHITE (Custom).png" style="margin-top: -7px; height: 70px; margin-right: 0rem" class="logoimage navbar-brand" />
-                        </a>
-                        <a id="right-home-btn" class="navbar-brand uppercase" style="margin-right: 0rem;padding-bottom: 0.9rem !important; margin-top: 0px;" href="#">
-                         <span class=""><i class="fa fa-bars"></i></span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        </div>
-
-      <div id="mySidenav" class="sidenav animate__animated">
-        <nav class="navbar navbar-expand-lg navbar-custom navbar-dark" style="transition: all 0.3s ease-in-out">
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto mt-2 mt-lg-0 animate__animated animate__delay-1s">
-					<li class="nav-item">
-						<a class="nav-link" href="home.html">Home</a>
+	<div>
+		<div id="mySidenav" class="sidenav animate__animated">
+			<nav class="navbar navbar-expand-lg navbar-custom navbar-dark" style="transition:all 0.3s ease-in-out;">
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ms-auto mt-2 mt-lg-0 animate__animated animate__delay-1s">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="gallery.html" class="nav-link">Picture</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="video.html" class="nav-link" id="navbar-video active">Videos</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="client.html" class="nav-link">Clients</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="about.html" class="nav-link">About</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="contact.html" class="nav-link">Contact</a>
+						</li>
+						<li>
+							<a href="" id="right-menu-overlay-close-btn" class="closebtn">&times;</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	
+		<div id="layer2-menu" class="content">
+		<nav class="navbar navbar-expand-lg navbar-custom navbar-dark" id="mainheaderid">
+			<a class="navbar-brand uppercase mobilecontact"  href="" style="font-size: 20px; padding-bottom: 1.2rem; margin-left: 1rem;">Contact Us</a>
+			<div class="collapse navbar-collapse" id="navbarToggler-right-home-menu" style="display: block;"> 
+				<ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-hidden">
+					<li class="nav-item logodiv">
+						<a id="logo-btn"  class="uppercase" href="">
+							<img src="https://karwaan.b-cdn.net/Front/KARWAANLOGOWHITE%20(Custom).png" class="logoimage navbar-brand" style="height: 80px; margin-top: -13px;">
+						</a>
 					</li>
-					<li class="nav-item nav-item-seprator">/</li>
-					<li class="nav-item">
-						<a href="gallery.html" class="nav-link">Picture</a>
+					<li class="nav-item active mt-15px">
+						<a id="right-home-btn" class="navbar-brand uppercase" style="font-size: 20px; padding-bottom: 1.2rem !important; position: relative; top: 12px;" href="#">Menu <span><i class="fa-solid fa-bars"></i></span></a>
 					</li>
-					<li class="nav-item nav-item-seprator">/</li>
-					<li class="nav-item">
-						<a href="video.html" class="nav-link active" id="navbar-video">Videos</a>
+				</ul>
+	
+				<ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-show">
+					<li class="nav-item active">
+						<a id="logo-btn" class="uppercase"> 
+						<img class="logoimage navbar-brand" src="https://karwaan.b-cdn.net/Front/KARWAANLOGOWHITE%20(Custom).png" style="height: 70px; margin-top: -7px; margin-right: 0rem;">
+					</a>
+					<a id="right-home-btn" class="navbar-brand uppercase" style="margin-right: 1rem; padding-bottom: 0.9rem !important; margin-top: 0px;" href="#">
+					<span><i class="fa-solid fa-bars"></i></span></a>
 					</li>
-					<li class="nav-item nav-item-seprator">/</li>
-					<li class="nav-item">
-						<a href="client.html" class="nav-link">Clients</a>
-					</li>
-					<li class="nav-item nav-item-seprator">/</li>
-					<li class="nav-item">
-						<a href="about.html" class="nav-link">About</a>
-					</li>
-					<li class="nav-item nav-item-seprator">/</li>
-					<li class="nav-item">
-						<a href="contact.html" class="nav-link">Contact</a>
-					</li>
-					<li>
-						<a href="" id="right-menu-overlay-close-btn" class="closebtn">&times;</a>
-					</li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+				</ul>
+			</div>
+	   </nav>
+	</div>
+	</div>
 
 
 	<!------  Videos   -->
 
-	<div id="content" class="main_content" style="background-color: white;">
-		<div class="motion">
-			<div class="motion_container" style="background-color: white;">
-				<section class="videos">
-					<div class="videos_list">
+	<div id="content" class="main_content">
+		<div class="desktop_motion">
+			<div class="motion_container">
+				<section class="motion_videos">
+					<div class="motion_videos_list">
 		
-						<a class="video_container" href="https://karwaan.b-cdn.net/Videos/Pursuit%20of%20Success%20-%20Journey%20Of%20Glory%202021.mp4"
-							data-position="1" data-name="The Rescue">
+						<a class="motion_video_container" href="https://karwaan.b-cdn.net/Videos/Pursuit%20of%20Success%20-%20Journey%20Of%20Glory%202021.mp4"
+							data-position="1" data-name="Pursuit Of Success">
 							<video muted loop>
-								<source
-									src="https://karwaan.b-cdn.net/Videos/Pursuit%20of%20Success%20-%20Journey%20Of%20Glory%202021.mp4"
-									type="video/mp4">
+								<source src="https://karwaan.b-cdn.net/Videos/Pursuit%20of%20Success%20-%20Journey%20Of%20Glory%202021.mp4" type="video/mp4">
 							</video>
 							<div class="motion_thumbnail"
 							 style="background-image: url(https://karwaan.b-cdn.net/Videos/1.png);"></div>
+							<div class="motion_overlay">
+								<!-- <h1>Aviral</h1> -->
+							</div>
 						</a>
 
-          				<a class="video_container"
+          				<a class="motion_video_container"
 							href="https://karwaan.b-cdn.net/Videos/Aviral%20-%20An%20initiative%20to%20reduce%20plastic%20waste%20in%20the%20Ganga.mp4"
-							data-position="2" data-name="Panerai">
+							data-position="2" data-name="Aviral">
 							<video muted loop>
 								<source src="https://karwaan.b-cdn.net/Videos/Aviral%20-%20An%20initiative%20to%20reduce%20plastic%20waste%20in%20the%20Ganga.mp4"
 									type="video/mp4">
@@ -133,11 +112,14 @@ footer {
 							<div class="motion_thumbnail"
 								style="background-image: url(https://karwaan.b-cdn.net/Videos/2.png);">
 							</div>
+							<div class="motion_overlay">
+								<!-- <h1>Panerai</h1> -->
+							</div>
 						</a>
 
-						<a class="video_container"
+						<a class="motion_video_container"
 							href="https://karwaan.b-cdn.net/Videos/Water%20Conservation%20_%20Holistic%20Rural%20Development%20Project%20_%20Udyogini%20_%20HDFC%20Parivartan.mp4"
-							data-position="3" data-name="Got Milk?">
+							data-position="3" data-name="Water Conservation">
 							<video muted loop>
 								<source
 									src="https://karwaan.b-cdn.net/Videos/Water%20Conservation%20_%20Holistic%20Rural%20Development%20Project%20_%20Udyogini%20_%20HDFC%20Parivartan.mp4"
@@ -146,11 +128,14 @@ footer {
 							<div class="motion_thumbnail"
 								style="background-image: url(https://karwaan.b-cdn.net/Videos/3.png);">
 							</div>
+							<div class="motion_overlay">
+								<h1>Water Conversation</h1>
+							</div>
 						</a>
 
-						<a class="video_container"
+						<a class="motion_video_container"
 							href="https://karwaan.b-cdn.net/Videos/Harrawala_%20A%20Second%20Model%20Ward%20for%20Waste%20Management%20in%20Dehradun!.mp4"
-							data-position="4" data-name="Ford Bronco">
+							data-position="4" data-name="Harrwala">
 							<video muted loop>
 								<source
 									src="https://karwaan.b-cdn.net/Videos/Harrawala_%20A%20Second%20Model%20Ward%20for%20Waste%20Management%20in%20Dehradun!.mp4"
@@ -159,11 +144,14 @@ footer {
 							<div class="motion_thumbnail"
 								style="background-image: url(https://karwaan.b-cdn.net/Videos/4.png);">
 							</div>
+							<div class="motion_overlay">
+								<!-- <h1>Ford Bronco</h1> -->
+							</div>
 						</a>
 
-						<a class="video_container"
+						<a class="motion_video_container"
 							href="https://karwaan.b-cdn.net/Videos/Reflecting%20on%20our%20journey%20so%20far%20_%20Uttarakhand%20_%20Udyogini%20_%20Women%20Empowerment%20_%202021.mp4"
-							data-position="5" data-name="Free Solo Trailer">
+							data-position="5" data-name="Reflecting on our Journey">
 							<video muted loop>
 								<source
 									src="https://karwaan.b-cdn.net/Videos/Reflecting%20on%20our%20journey%20so%20far%20_%20Uttarakhand%20_%20Udyogini%20_%20Women%20Empowerment%20_%202021.mp4"
@@ -172,11 +160,14 @@ footer {
 							<div class="motion_thumbnail"
 								style="background-image: url(https://karwaan.b-cdn.net/Videos/5.png);">
 							</div>
+							<div class="motion_overlay">
+								<!-- <h1>Free Solo Trailer</h1> -->
+							</div>
 						</a>
 
-						<a class="video_container"
+						<a class="motion_video_container"
 							href="https://karwaan.b-cdn.net/Videos/Kashmir%20Tourism%20Video%20_%20Aerial%20_%20Great%20Lakes%20Trek%20_%20Gurez%20valley%20_%20Incredible%20India%20_%20Places%20to%20see.mp4"
-							data-position="6" data-name="Director&#8217;s Reel">
+							data-position="6" data-name="Kashmir Tourism">
 							<video muted loop>
 								<source
 									src="https://karwaan.b-cdn.net/Videos/Kashmir%20Tourism%20Video%20_%20Aerial%20_%20Great%20Lakes%20Trek%20_%20Gurez%20valley%20_%20Incredible%20India%20_%20Places%20to%20see.mp4"
@@ -184,6 +175,9 @@ footer {
 							</video>
 							<div class="motion_thumbnail"
 								style="background-image: url(https://karwaan.b-cdn.net/Videos/6.png);">
+							</div>
+							<div class="motion_overlay">
+								<!-- <h1>Director&#8217;s Reel</h1> -->
 							</div>
 						</a>
 					</div>
@@ -193,20 +187,24 @@ footer {
 					<h1>Motion</h1>
 				</section>
 
-				<section class="motion_home_link">
-					<a href="home.html">Home</a>
+				<section class="motion_home_link"> 
+					<a href="index.html" style="text-decoration: none;">Home</a>
 				</section>
 
 			</div>
 
-			<div class="bottom_container">
-				<button class="icon_on_left" id="motion_scroll_left">
+			<div class="motion_bottom_container">
+				<button class="icon_text_container icon_on_left" id="motion_scroll_left">
 					<span class="light_uppercase">
 						<img class="dash_arrow"
 							src="https://karwaan.b-cdn.net/Videos/dash_arrow_left.png" />
 						Scroll</span>
 				</button>
-				<button class="icon_on_right" id="motion_scroll_right">
+				<p class="motion_video_details light_uppercase">
+					<span id="current_video_position"></span>/<span id="total_videos"></span> <span
+						id="current_video_name"></span>
+				</p>
+				<button class="icon_text_container icon_on_right" id="motion_scroll_right">
 					<span class="light_uppercase">Scroll <img class="dash_arrow"
 							src="https://karwaan.b-cdn.net/Videos/dash_arrow_right.png"/></span>
 				</button>
@@ -215,51 +213,58 @@ footer {
 		</div>
 
 		<div class="mobile_motion">
-			<a class="mobile_thumbnail" href="https://karwaan.b-cdn.net/Videos/Pursuit%20of%20Success%20-%20Journey%20Of%20Glory%202021.mp4" 
+			<a class="mobile_motion_thumbnail" href="https://karwaan.b-cdn.net/Videos/Pursuit%20of%20Success%20-%20Journey%20Of%20Glory%202021.mp4" 
 			style="background-image: url(https://karwaan.b-cdn.net/Videos/1.png);">
-				<div class="mobile_cover">
-					<p>6:22</p>
+				<div class="mobile_motion_thumbnail_cover">
+					<h2>Pursuit of Success</h2>
+					<!-- <p>6:22</p> -->
 				</div>
 			</a>
 
-			<a class="mobile_thumbnail" href="https://karwaan.b-cdn.net/Videos/Aviral%20-%20An%20initiative%20to%20reduce%20plastic%20waste%20in%20the%20Ganga.mp4" 
+			<a class="mobile_motion_thumbnail" href="https://karwaan.b-cdn.net/Videos/Aviral%20-%20An%20initiative%20to%20reduce%20plastic%20waste%20in%20the%20Ganga.mp4" 
 			style="background-image: url(https://karwaan.b-cdn.net/Videos/2.png);">
-				<div class="mobile_cover">
-					<p>3:13</p>
+				<div class="mobile_motion_thumbnail_cover">
+					<h2>Aviral</h2>
+					<!-- <p>3:13</p> -->
 				</div>
 			</a>
 
-			<a class="mobile_thumbnail" href="https://karwaan.b-cdn.net/Videos/Water%20Conservation%20_%20Holistic%20Rural%20Development%20Project%20_%20Udyogini%20_%20HDFC%20Parivartan.mp4" 
+			<a class="mobile_motion_thumbnail" href="https://karwaan.b-cdn.net/Videos/Water%20Conservation%20_%20Holistic%20Rural%20Development%20Project%20_%20Udyogini%20_%20HDFC%20Parivartan.mp4" 
 			style="background-image: url(https://karwaan.b-cdn.net/Videos/3.png);">
-				<div class="mobile_cover">
-					<p>2:20</p>
+				<div class="mobile_motion_thumbnail_cover">
+					<h2>Water Conversation</h2>
+					<!-- <p>2:20</p> -->
 				</div>
 			</a>
 
-			<a class="mobile_thumbnail" href="https://karwaan.b-cdn.net/Videos/Harrawala_%20A%20Second%20Model%20Ward%20for%20Waste%20Management%20in%20Dehradun!.mp4" 
+			<a class="mobile_motion_thumbnail" href="https://karwaan.b-cdn.net/Videos/Harrawala_%20A%20Second%20Model%20Ward%20for%20Waste%20Management%20in%20Dehradun!.mp4" 
 			style="background-image: url(https://karwaan.b-cdn.net/Videos/4.png);">
-				<div class="mobile_cover">
-					<p>5:42</p>
+				<div class="mobile_motion_thumbnail_cover">
+					<h2>Harrawala</h2>
+					<!-- <p>5:42</p> -->
 				</div>
 			</a>
 
-			<a class="mobile_thumbnail" href="https://karwaan.b-cdn.net/Videos/Reflecting%20on%20our%20journey%20so%20far%20_%20Uttarakhand%20_%20Udyogini%20_%20Women%20Empowerment%20_%202021.mp4" 
+			<a class="mobile_motion_thumbnail" href="https://karwaan.b-cdn.net/Videos/Reflecting%20on%20our%20journey%20so%20far%20_%20Uttarakhand%20_%20Udyogini%20_%20Women%20Empowerment%20_%202021.mp4" 
 			style="background-image: url(https://karwaan.b-cdn.net/Videos/5.png);">
-				<div class="mobile_cover">
-					<p>4:20</p>
+				<div class="mobile_motion_thumbnail_cover">
+					<h2>Reflecting On our Journey</h2>
+					<!-- <p>4:20</p> -->
 				</div>
 			</a>
 
-			<a class="mobile_thumbnail" href="https://karwaan.b-cdn.net/Videos/Kashmir%20Tourism%20Video%20_%20Aerial%20_%20Great%20Lakes%20Trek%20_%20Gurez%20valley%20_%20Incredible%20India%20_%20Places%20to%20see.mp4" 
+			<a class="mobile_motion_thumbnail" href="https://karwaan.b-cdn.net/Videos/Kashmir%20Tourism%20Video%20_%20Aerial%20_%20Great%20Lakes%20Trek%20_%20Gurez%20valley%20_%20Incredible%20India%20_%20Places%20to%20see.mp4" 
 			style="background-image: url(https://karwaan.b-cdn.net/Videos/6.png);">
-				<div class="mobile_cover">
-					<p>5:04</p>
+				<div class="mobile_motion_thumbnail_cover">
+					<h2>Kashmir Tourism</h2>
+					<!-- <p>5:04</p> -->
 				</div>
 			</a>
 		</div>
 	</div>
 
-	<footer style="background-color: #000;">
+
+	<footer>
 		<section class="d-flex align-items-center" style="height:70px; background-color: black;">
 			<a href="#" class="text-white text-decoration-none karwaan" style=" margin-left: 12px;">Karwaan Films</a>
 		  
@@ -283,12 +288,35 @@ footer {
 		</section>
 	</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+
+	
+
+	<script src='https://karwaan.b-cdn.net/Videos/min.js' ></script>
+	<script src='https://karwaan.b-cdn.net/Videos/min1.js'></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="navbar.js"></script>
+	<script>
+	  $(function () {
+		  $(".fancybox").viewbox();
+		  (function () {
+			  var vb = $(".popup-link").viewbox();
+			  $(".popup-open-button").click(function () {
+				  vb.trigger("viewbox.open");
+			  });
+			  $(".close-button").click(function () {
+				  vb.trigger("viewbox.close");
+			  });
+		  })();
+	  });
+  </script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-DT014V4SW2');
+	</script>
+
 
 </body>
 </html>

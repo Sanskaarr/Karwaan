@@ -1,3 +1,7 @@
+const hideLoader = function () {
+    $("#loading").hide();
+};
+
 const openNav = function () {
     $("#right-menu-overlay-close-btn").show();
     $("#right-home-btn").hide();
@@ -19,6 +23,8 @@ const closeNav = function () {
 
 
 $(document).ready(function () {
+    setTimeout(hideLoader, 4000);
+
     $("#right-home-btn,#right-home-btn-burgur").click(function (event) {
         openNav();
         event.preventDefault();
