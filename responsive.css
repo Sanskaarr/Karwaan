@@ -5,13 +5,18 @@
     .mobile-show{
         display: none;
     }
+    .social-icons{
+        font-size: medium;
+    }
 }
    /* 1025px 200px: Desktops, large screens */
 @media screen and (max-width: 1200px) {
     .text {
         font-size: 16px;
     }
-
+    .social-icons{
+        font-size: medium;
+    }
 
 }
 @media(max-width:1240){
@@ -79,6 +84,9 @@
     .clientpage {
         padding-left: 15px !important;
         padding-right: 15px !important;
+    }
+    .social-icons{
+        font-size: medium;
     }
 }
 
@@ -150,6 +158,12 @@
     .clientpage {
         padding-left: 15px !important;
         padding-right: 15px !important;
+    }
+    .social-icons{
+        font-size: small;
+    }
+    .karwaan{
+        font-size: small;
     }
 }
 
@@ -304,6 +318,15 @@
     .mobilevideo {
         width: 100% !important;
         height: 430px;
+    }
+    footer{
+        position: static;
+    }
+    .social-icons{
+        font-size: small;
+    }
+    .karwaan{
+        font-size: small;
     }
 }
 
@@ -466,6 +489,15 @@
         width: 100% !important;
         height:200px;
     }
+    footer{
+        position: static;
+    }
+    .social-icons{
+        font-size: smaller;
+    }
+    .karwaan{
+        font-size: small;
+    }
 }
 
 @media  (max-width: 414px) {
@@ -597,6 +629,15 @@
     .mobilevideo{
         width: 100% !important;
         height: 230px;
+    }
+    footer{
+        position: static;
+    }
+    .social-icons{
+        font-size: x-small;
+    }
+    .karwaan{
+        font-size: small;
     }
 }
 @media  (max-width: 375px) {
@@ -733,6 +774,15 @@
         width: 100% !important;
         height: 200px;
     }
+    footer{
+        position: static;
+    }
+    .social-icons{
+        font-size: x-small;
+    }
+    .karwaan{
+        font-size: medium;
+    }
 }
 @media  (max-width: 320px) {
     #layer1-bgvideo {
@@ -860,10 +910,26 @@
         width: 100% !important;
         height: 180px;
     }
+    footer{
+        position: static;
+    }
+    .social-icons{
+        font-size: x-small;
+    }
+    .karwaan{
+        font-size: small;
+    }
 }
 @media (min-width: 992px){
     .mobile-show{
         display: none;
+    }
+    .social-icons{
+        font-size: small;
+    }
+    .karwaan{
+        font-size: medium
+        ;
     }
 }
 @media screen and (max-width: 992px) {
@@ -876,7 +942,15 @@
     .mt-120px{
         margin-top: 25px;
     }
-    
+    footer{
+        position: static;
+    }
+    .social-icons{
+        font-size: small;
+    }
+    .karwaan{
+        font-size: medium;
+    }
 
 }
 @media (min-width: 768px) and (max-width:1024px){
@@ -896,6 +970,15 @@
         margin-top: -4px !important;
     }
 
+    footer{
+        position: static;
+    }
+    .social-icons{
+        font-size: small;
+    }
+    .karwaan{
+        font-size: medium;
+    }
 
 }
 @media (orientation: landscape) {
@@ -907,6 +990,12 @@
     }
     #layer2-menu{
         overflow: scroll;
+    }
+    .social-icons{
+        font-size: small;
+    }
+    .karwaan{
+        font-size: medium;
     }
 }
 @media (orientation: landscape) and (min-width:375px) and (max-width:812px){
@@ -925,10 +1014,25 @@
     #layer2-menu{
         overflow: scroll;
     }
+    footer{
+        position: static;
+    }
+    .social-icons{
+        font-size: small;
+    }
+    .karwaan{
+        font-size: medium;
+    }
 }
 
 @media (orientation: landscape) and (min-width: 1024px){
     #layer2-menu{
         overflow: hidden;
+    }
+    .social-icons{
+        font-size: medium;
+    }
+    .karwaan{
+        font-size: medium;
     }
 }
