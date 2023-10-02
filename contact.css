@@ -1,0 +1,637 @@
+/* contact */
+
+* {
+    box-sizing: border-box;
+}
+.color-white{
+    color: white;
+}
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.customize-input{
+    margin-left: -5px !important;
+    margin-top: 5px ;
+}
+.label-input{
+    float: left;
+}
+.mb-2rem{
+    margin-bottom: 2rem;
+}
+.input-career{
+    color: black;
+    background: rgba(0, 0, 0, 0.0);
+    border: 1px solid #ced4da;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.fa-brands:hover{
+    color: red;
+}
+
+/* main1 */
+* {
+    box-sizing: border-box;
+}
+.navbar-custom.navbar-brand a {
+    color: #fff;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    opacity: 0.9;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    font-size: 36px;
+    margin-top: -10px;
+}
+
+.sidenav .navbar-nav {
+    padding-right: 4vh;
+    margin-top: 10px !important;
+}
+
+.nav-item-seprator {
+    font-size: 20px;
+    color: rgba(255,255,255,.5);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+.navbar-dark .navbar-toggler {
+    border-color: transparent;
+}
+
+@media only screen and (max-width: 991px) {
+    #right-menu-overlay-close-btn {
+        top: 23px;
+        right: 23px;
+        position: fixed;
+    }
+
+    #navbarNavDropdown .nav-item {
+        text-align: center;
+    }
+
+    .nav-item-seprator {
+        display: none !important;
+    }
+
+    #mySidenav .navbar {
+        margin-top: 5rem;
+    }
+}
+
+/* responsive */
+
+
+/*//   1201px and moreâ€Šâ€”â€Š Extra large screens, TV*/
+
+@media screen and (min-width: 1201px) {
+    .text {
+        font-size: 16px;
+    }
+    .mobile-show{
+        display: none;
+    }
+}
+/*//   1025pxâ€Šâ€”â€Š1200px: Desktops, large screens*/
+@media screen and (max-width: 1200px) {
+    .text {
+        font-size: 16px;
+    }
+
+
+}
+
+/*//   769pxâ€Šâ€”â€Š1024px: Small screens, laptops*/
+@media screen and (max-width: 1024px) {
+    .mobile-show{
+        display: none;
+    }
+    .color-white{
+        color: white
+    }
+}
+
+
+/*//   481pxâ€Šâ€”â€Š768px: iPads, Tablets*/
+@media screen and (max-width: 768px) {
+    .mobile-hidden {
+        display: none !important;
+    }
+    .mobile-show {
+        display:block;
+    }
+    .color-white{
+        color: white
+    }
+    .contactpage{
+        position: unset !important;
+
+    }
+    .contactform{
+        margin: 2px !important;
+    }
+    .navbar-brand:hover {
+        color: #fff;
+    }
+
+    .bodyclass{
+        background: #212529 !important;
+    }
+    .sidenav {
+        background: rgba(0, 0, 0,1);
+    }
+    .contactnavber{
+        margin: 10px !important;
+    }
+    .mobilecontact{
+        padding-bottom: 0.9rem !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mobile-hidden {
+        display: none;
+    }
+
+    /*home-screen*/
+
+
+    .bb-1px{
+        border-bottom: 1px solid #505050;
+    }
+    .color-white{
+        color: white
+    }
+    .contactpage{
+        position: unset !important;
+    }
+    .contactform{
+        margin: 2px !important;
+    }
+    .mobilemenu.active{
+        color: black;
+        background-color: white;
+        outline: none;
+        width: 100%;
+    }
+    .mobile-show {
+        display:block;
+    }
+    .bodyclass{
+        background: #212529 !important;
+    }
+    .sidenav {
+        background: rgba(0, 0, 0,1);
+    }
+    .contactnavber{
+        margin: 10px !important;
+    }
+}
+@media  (max-width: 414px) {
+    .contactpage{
+        position: unset !important;
+
+    }
+    .contactform{
+        margin: 2px !important;
+    }
+    .mobilemenu.active{
+        color: black;
+        background-color: white;
+        outline: none;
+        width: 100%;
+    }
+    .mobile-show {
+        display:block;
+    }
+    .bodyclass{
+        background: #212529 !important;
+    }
+    .sidenav {
+        background: rgba(0, 0, 0,1);
+    }
+    .contactnavber{
+        margin: 10px !important;
+    }
+    .mobilecontact{
+        padding-bottom: 0.9rem !important;
+    }
+}
+@media  (max-width: 375px) {
+    .contactpage{
+        position: unset !important;
+    }
+    .contactform{
+        margin: 2px !important;
+    }
+    .mobilemenu.active{
+        color: black;
+        background-color: white;
+        outline: none;
+        width: 100%;
+    }
+    .mobile-show {
+        display:block;
+    }
+    .bodyclass{
+        background: #212529 !important;
+    }
+    .sidenav {
+        background: rgba(0, 0, 0,1);
+    }
+    .contactnavber{
+        margin: 10px !important;
+    }
+    .mobilecontact{
+        padding-bottom: 0.9rem !important;
+    }
+}
+@media  (max-width: 320px) {
+    .contactpage{
+        position: unset !important;
+    }
+    .contactform{
+        margin: 2px !important;
+    }
+    .mobilemenu.active{
+        color: black;
+        background-color: white;
+        outline: none;
+        width: 100%;
+    }
+    .mobile-show {
+        display:block;
+    }
+    .bodyclass{
+        background: #212529 !important;
+    }
+    .sidenav {
+        background: rgba(0, 0, 0,1);
+    }
+    .contactnavber{
+        margin: 10px !important;
+    }
+    .mobilecontact{
+        padding-bottom: 0.9rem !important;
+    }
+}
+@media (min-width: 992px){
+    .mobile-show{
+        display: none;
+    }
+}
+@media screen and (max-width: 992px) {
+    .mobile-show{
+        display: block;
+    }
+    .mobile-hidden{
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width:1024px){
+    .main-banner .mobile-hidden {
+        display: block !important;
+    }
+    .main-banner  .mobile-show {
+        display:none ;
+    }
+    .main-banner  .mt-15px {
+        margin-top: -53px;
+    }
+    .main-banner  .logodiv {
+        padding-right: 80px;
+    }
+    .main-banner  .mt-2 {
+        margin-top: -4px !important;
+    }
+}
+@media (orientation: landscape) {
+    .videosection .mobile-hidden {
+        display: block !important;
+    }
+    .videosection  .mobile-show {
+        display:none ;
+    }
+    #layer2-menu{
+        overflow: scroll;
+    }
+}
+@media (orientation: landscape) and (min-width:375px) and (max-width:812px){
+    .videosection .mobile-hidden {
+        display: block !important;
+    }
+    .videosection  .mobile-show {
+        display:none ;
+    }
+    .content .mobile-hidden {
+        display: none !important;
+    }
+    .content  .mobile-show {
+        display:block ;
+    }
+    #layer2-menu{
+        overflow: scroll;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1024px){
+    #layer2-menu{
+        overflow: hidden;
+    }
+}
+/*//   1201px and moreâ€Šâ€”â€Š Extra large screens, TV*/
+@media screen and (min-width: 1201px) {
+    .text {
+        font-size: 16px;
+    }
+    .mobile-show{
+        display: none;
+    }
+}
+/*//   1025pxâ€Šâ€”â€Š1200px: Desktops, large screens*/
+@media screen and (max-width: 1200px) {
+    .text {
+        font-size: 16px;
+    }
+}
+
+/*//   769pxâ€Šâ€”â€Š1024px: Small screens, laptops*/
+@media screen and (max-width: 1024px) {
+    .mobile-show{
+        display: none;
+    }
+    .color-white{
+        color: white
+    }
+}
+@media screen and (max-width: 768px) {
+    .mobile-hidden {
+        display: none !important;
+    }
+    .mobile-show {
+        display:block;
+    }
+    .color-white{
+        color: white
+    }
+    .contactpage{
+        position: unset !important;
+
+    }
+    .contactform{
+        margin: 2px !important;
+    }
+    .mobilemenu.active{
+        color: black;
+        background-color: white;
+        outline: none;
+        width: 100%;
+    }
+
+    .navbar-brand:hover {
+        color: #fff;
+    }
+
+    .bodyclass{
+        background: #212529 !important;
+    }
+    .sidenav {
+        background: rgba(0, 0, 0,1);
+    }
+    .contactnavber{
+        margin: 10px !important;
+    }
+    .mobilecontact{
+        padding-bottom: 0.9rem !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mobile-hidden {
+        display: none;
+    }
+    .color-white{
+        color: white
+    }
+    .contactpage{
+        position: unset !important;
+
+    }
+    .contactform{
+        margin: 2px !important;
+    }
+    .mobilemenu.active{
+        color: black;
+        background-color: white;
+        outline: none;
+        width: 100%;
+    }
+    .mobile-show {
+        display:block;
+    }
+    .bodyclass{
+        background: #212529 !important;
+    }
+    .sidenav {
+        background: rgba(0, 0, 0,1);
+    }
+    .contactnavber{
+        margin: 10px !important;
+    }
+    .mobilecontact{
+        padding-bottom: 0.9rem !important;
+    }
+}
+@media  (max-width: 414px) {
+    .contactpage{
+        position: unset !important;
+
+    }
+    .contactform{
+        margin: 2px !important;
+    }
+    .mobilemenu.active{
+        color: black;
+        background-color: white;
+        outline: none;
+        width: 100%;
+    }
+    .mobile-show {
+        display:block;
+    }
+    .bodyclass{
+        background: #212529 !important;
+    }
+    .sidenav {
+        background: rgba(0, 0, 0,1);
+    }
+    .contactnavber{
+        margin: 10px !important;
+    }
+    .mobilecontact{
+        padding-bottom: 0.9rem !important;
+    }
+}
+@media  (max-width: 375px) {
+    .contactpage{
+        position: unset !important;
+
+    }
+    .contactform{
+        margin: 2px !important;
+    }
+    .mobilemenu.active{
+        color: black;
+        background-color: white;
+        outline: none;
+        width: 100%;
+    }
+    .mobile-show {
+        display:block;
+    }
+    .bodyclass{
+        background: #212529 !important;
+    }
+    .sidenav {
+        background: rgba(0, 0, 0,1);
+    }
+    .contactnavber{
+        margin: 10px !important;
+    }
+    .mobilecontact{
+        padding-bottom: 0.9rem !important;
+    }
+}
+@media  (max-width: 320px) {
+    .contactpage{
+        position: unset !important;
+    }
+    .contactform{
+        margin: 2px !important;
+    }
+    .mobilemenu.active{
+        color: black;
+        background-color: white;
+        outline: none;
+        width: 100%;
+    }
+    .mobile-show {
+        display:block;
+    }
+    .bodyclass{
+        background: #212529 !important;
+    }
+    .sidenav {
+        background: rgba(0, 0, 0,1);
+    }
+    .contactnavber{
+        margin: 10px !important;
+    }
+    .mobilecontact{
+        padding-bottom: 0.9rem !important;
+    }
+}
+@media (min-width: 992px){
+    .mobile-show{
+        display: none;
+    }
+}
+@media screen and (max-width: 992px) {
+    .mobile-show{
+        display: block;
+    }
+    .mobile-hidden{
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width:1024px){
+    .main-banner .mobile-hidden {
+        display: block !important;
+    }
+    .main-banner  .mobile-show {
+        display:none ;
+    }
+    .main-banner  .mt-15px {
+        margin-top: -53px;
+    }
+    .main-banner  .logodiv {
+        padding-right: 80px;
+    }
+    .main-banner  .mt-2 {
+        margin-top: -4px !important;
+    }
+
+
+}
+@media (orientation: landscape) {
+    .videosection .mobile-hidden {
+        display: block !important;
+    }
+    .videosection  .mobile-show {
+        display:none ;
+    }
+    #layer2-menu{
+        overflow: scroll;
+    }
+}
+@media (orientation: landscape) and (min-width:375px) and (max-width:812px){
+    .videosection .mobile-hidden {
+        display: block !important;
+    }
+    .videosection  .mobile-show {
+        display:none ;
+    }
+    .content .mobile-hidden {
+        display: none !important;
+    }
+    .content  .mobile-show {
+        display:block ;
+    }
+    #layer2-menu{
+        overflow: scroll;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1024px){
+    #layer2-menu{
+        overflow: hidden;
+    }
+}
