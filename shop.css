@@ -111,11 +111,11 @@ button.normal{
 }
 
 #opening button{    
-    background-color: #073866;
-    border-radius: 50px;
+    background-color: #000;
+    /* border-radius: 50px; */
     color: #f4f8f8;
     border: 0;
-    padding: 14px 80px 14px 65px;
+    padding: 8px 40px 8px 40px;
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 700;

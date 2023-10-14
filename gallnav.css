@@ -34,7 +34,7 @@
     text-align: right;
     margin-bottom: 0;
     list-style: none;
-    /* color: black; */
+    color: black;
 }
 
 .navbar-collapse {
@@ -70,7 +70,7 @@ a {
 
  .content {
     position: relative;
-    background: rgb(250, 247, 247);
+    background: #FFF;
     color: #080808;
     width: 100%;
 } 
@@ -87,7 +87,7 @@ a {
     top: 0;
     color: #080808;
     right: 0;
-    background: rgba(253, 252, 252, 0.8);
+    background: #fff;
     overflow-x: hidden;
     opacity: 0.9;
 }
@@ -111,7 +111,7 @@ a {
 }
 .nav-item-seprator {
     font-size: 20px;
-    color: rgba(255,255,255,.5);
+    color: #000;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 10px;
@@ -126,7 +126,6 @@ a {
     #right-menu-overlay-close-btn {
         top: 23px;
         right: 23px;
-        position: fixed;
     }
     #navbarNavDropdown .nav-item {
         text-align: center;
