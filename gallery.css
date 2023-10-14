@@ -23,7 +23,7 @@ section.home_link a {
 }
 
 .stills_page_container {
-    padding-top: 100px;
+    padding-top: 10px;
     height: 100vh;
     display: flex;
     flex-direction: column

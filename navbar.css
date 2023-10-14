@@ -69,13 +69,13 @@ a {
 
  .content {
     position: relative;
-    background: black;
-    color: #fff;
+    background: rgb(252, 249, 249);
+    color: #070707;
     width: 100%;
 } 
 
 .navbar-custom.navbar-brand a {
-    color: #fff;
+    color: #030303;
 }
 
 .sidenav {
@@ -120,11 +120,11 @@ a {
 }
 
 /* Footer CSS */
-footer {
+/* footer {
     position: static;
     bottom: 0;
     width: 100%;
-    background-color: #000;
+    background-color: #faf8f8;
   }
 
 .karwaan{
@@ -141,7 +141,7 @@ footer {
 
 .social-icons a:hover{
     opacity: 0.5;
-}
+} */
 
 
 @media only screen and (max-width: 991px) {
