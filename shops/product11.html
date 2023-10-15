@@ -3,113 +3,99 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="shop.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="../shop.css">
+    <link rel="stylesheet" href="../navbar.css">
+    <link rel="stylesheet" href="../responsive.css">
+    <link rel="stylesheet" href="../footer.css">
     <title>Product 11</title>
 </head>
 
 <body>
-    <!-- NavBar Starting  -->
-    <div>
-        <div id="mySidenav" class="sidenav animate__animated">
-            <nav class="navbar navbar-expand-lg navbar-custom navbar-dark" style="transition: all 0.3s ease-in-out">
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0 animate__animated animate__delay-1s">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                        </li>
+      <!-- Navbar Starting -->
+	<div>
+		<div id="mySidenav" class="sidenav animate__animated">
+			<nav class="navbar navbar-expand-lg navbar-custom navbar-dark" style="transition:all 0.3s ease-in-out;">
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ms-auto mt-2 mt-lg-0 animate__animated animate__delay-1s">
+						<li class="nav-item">
+							<a class="nav-link" href="../index.html">Home</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="../gallery.html" class="nav-link">Picture</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="../video.html" class="nav-link" id="navbar-video">Videos</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="../client.html" class="nav-link">Clients</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="../about.html" class="nav-link">About</a>
+						</li>
                         <li class="nav-item nav-item-seprator">/</li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/gallery.html">Pictures</a>
-                        </li>
-                        <li class="nav-item nav-item-seprator">/</li>
-                        <li class="nav-item">
-                            <a id="navbar-video" class="nav-link" href="/video.html">Videos</a>
-                        </li>
-                        <li class="nav-item nav-item-seprator">/</li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/blog.html">Blogs</a>
-                        </li>
-                        <li class="nav-item nav-item-seprator">/</li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/client.html">Clients</a>
-                        </li>
-                        <li class="nav-item nav-item-seprator">/</li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/shop.html">Shop</a>
-                        </li>
-                        <li class="nav-item nav-item-seprator">/</li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/about.html">About Us</a>
-                        </li>
-                        <li class="nav-item nav-item-seprator">/</li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item nav-item-seprator">/</li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/login.html">Admin</a>
-                        </li>
-                        <li>
-                            <a id="right-menu-overlay-close-btn" href="#" class="closebtn">&times;</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-
-        <div id="layer2-menu" class="content">
-            <nav class="navbar navbar-expand-lg navbar-custom navbar-dark" id="mainheaderid">
-                <a class="navbar-brand uppercase mobilecontact" href="/contact.html"
-                    style="font-size: 20px; padding-bottom: 1.2rem">Contact us</a>
-                <div class="collapse navbar-collapse" id="navbarToggler-right-home-menu" style="display: block">
-                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-hidden">
-                        <li class="nav-item logodiv">
-                            <a id="logo-btn" class="uppercase" href="/">
-                                <img src="KARWAANLOGOWHITE (Custom).png" class="logoimage navbar-brand"
-                                    style="height: 80px; margin-top: -13px" />
-                            </a>
-                        </li>
-                        <li class="nav-item active mt-15px">
-                            <a id="right-home-btn" class="navbar-brand uppercase"
-                                style="font-size: 20px; padding-bottom: 1.2rem !important; position: relative; top: 12px;"
-                                href="#">Menu <span class=""><i class="fa fa-bars"></i></span></a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-show">
-                        <li class="nav-item active">
-                            <a id="logo-btn" class="uppercase" href="/">
-                                <img src="KARWAANLOGOWHITE (Custom).png"
-                                    style="margin-top: -7px; height: 70px; margin-right: 0rem"
-                                    class="logoimage navbar-brand" />
-                            </a>
-                            <a id="right-home-btn" class="navbar-brand uppercase"
-                                style="margin-right: 0rem;padding-bottom: 0.9rem !important; margin-top: 0px;" href="#">
-                                <span class=""><i class="fa fa-bars" style="margin: 8px;"></i></span></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </div>
+						<li class="nav-item">
+							<a href="../shopD.html" class="nav-link active">Shop</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="../contact.html" class="nav-link">Contact</a>
+						</li>
+						<li>
+							<a href="" id="right-menu-overlay-close-btn" class="closebtn">&times;</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	
+		<div id="layer2-menu" class="content">
+		<nav class="navbar navbar-expand-lg navbar-custom navbar-dark" id="mainheaderid">
+			<a class="navbar-brand uppercase mobilecontact"  href="" style="font-size: 18px; padding-bottom: 1.2rem; margin-left: 10px;">Contact Us</a>
+			<div class="collapse navbar-collapse" id="navbarToggler-right-home-menu" style="display: block;"> 
+				<ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-hidden">
+					<li class="nav-item logodiv">
+						<a id="logo-btn"  class="uppercase" href="">
+							<img src="https://karwaan.b-cdn.net/Front/KARWAANLOGOWHITE%20(Custom).png" class="logoimage navbar-brand" style="height: 80px; margin-top: -13px;">
+						</a>
+					</li>
+					<li class="nav-item active mt-15px">
+						<a id="right-home-btn" class="navbar-brand uppercase" style="font-size: 20px; padding-bottom: 1.2rem !important; position: relative; top: 12px;" href="#">Menu <span><i class="fa-solid fa-bars"></i></span></a>
+					</li>
+				</ul>
+	
+				<ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-show">
+					<li class="nav-item active">
+						<a id="logo-btn" class="uppercase"> 
+						<img class="logoimage navbar-brand" src="https://karwaan.b-cdn.net/Front/KARWAANLOGOWHITE%20(Custom).png" style="height: 70px; margin-top: -7px; margin-right: -19px;">
+					</a>
+					<a id="right-home-btn" class="navbar-brand uppercase" style=" padding-bottom: 0.9rem !important; margin-top: 0px; margin-left: 8px;" href="#" >
+					<span><i class="fa-solid fa-bars"></i></span></a>
+					</li>
+				</ul>
+			</div>
+	   </nav>
+	</div>
+	</div>
 
     <br><br><br>
     <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-6 box-1 col-xxs-12 col-xs-12 "><br>
+          <div class="col-sm-6 box-1 col-xxs-12 col-xs-12 "><br><br><br>
             <p>shop/shopD/product11</p>
-            <img src="gallery/Uncategorized2.jpg" alt="" width="100%" id="MainImg">
+            <img src="https://karwaan.b-cdn.net/gallery/Uncategorized2.jpg" alt="" width="100%" id="MainImg">
           </div>
-          <div class="col-sm-6 box-2 col-xxs-12 col-xs-12"><br>
-            
-            <button class="button" style="border:1px solid black; padding:5px; height:40px; width:40px; background-color: #fff; color: #000; border-radius: 80px;"onclick="window.location.href='product12.html'"><i class="fa-solid fa-chevron-right fa-lg"></i></button>
-            <button class="button" style=" margin-left:80%;border:1px solid black; padding:5px; height:40px; width:40px; background-color: #fff; color: #000; border-radius: 80px;" onclick="window.location.href='product10.html'"><i class="fa-solid fa-chevron-left fa-lg"></i></button>
-           
+          <div class="col-sm-6 box-2 col-xxs-12 col-xs-12"><br><br>
+            <button class="button" id="g" style="border:1px solid black; padding:5px; height:40px; width:40px; background-color: #fff; color: #000; border-radius: 80px;" onclick="window.location.href='product10.html'"><i class="fa-solid fa-chevron-left fa-lg"></i></button>
+
+            <button class="button" id="p" style="border:1px solid black; padding:5px; height:40px; width:40px; background-color: #fff; color: #000; border-radius: 80px;"onclick="window.location.href='product12.html'"><i class="fa-solid fa-chevron-right fa-lg"></i></button>
+            <br><br><br>
             <h3 style="font-style: bold;">Sunset</h3>
           <p> Sea Scenery, India</p>
           <h3>Rs. 1400</h3>
@@ -127,32 +113,32 @@
           </select>
          
           <br><br>
-          <button type="button" class="btn-lg btn-primary w-50">Add to Cart</button>
-        <button type="button" class="btn-lg btn-secondary" style="width:30%">Buy Now</button>
+          <button type="button"class="btn-lg btn-secondary">Add to Cart</button>
+        <button type="button" class="btn-lg btn-secondary" >Buy Now</button>
           </div>
 
 
-    <section id="product1" class="section-p1">
+    <section id="product1" class="section-p">
         <h2>Featured Painting</h2>
         <p>New Modern Design Collection</p>
 
         <div class="pro-container">
             <div class="pro" onclick="window.location.href='product4.html'">
-                <img src="gallery/Black12.jpg">
+                <img src="https://karwaan.b-cdn.net/gallery/Black12.jpg">
                 <div class="des">
                     <Span>Karwaan</Span>
                     <h5>Uncategorized Painting</h5>
                 </div>
             </div>
          <div class="pro" onclick="window.location.href='product5.html'">
-            <img src="gallery/Black4.jpg">
+            <img src="https://karwaan.b-cdn.net/gallery/Black4.jpg">
             <div class="des">
                 <Span>Karwaan</Span>
                 <h5>Uncategorized Painting</h5>
             </div>
         </div>
         <div class="pro" onclick="window.location.href='product6.html'">
-            <img src="gallery/Uncategorized1.jpg">
+            <img src="https://karwaan.b-cdn.net/gallery/Uncategorized1.jpg">
             <div class="des">
                 <Span>Karwaan</Span>
                 <h5>Uncategorized Painting</h5>
@@ -161,42 +147,35 @@
     </div>
     </section>
 
-    <footer class="section-p1">
-        <div class="col">
-            <img src="KARWAANLOGOWHITE (Custom).png" alt="" class="logo">
-            <h4>Contact Us:</h4>
-            <p><Strong>Address:</Strong>Karwaan Films, Patel Nagar, Delhi</p>
-            <p><Strong>Phone:</Strong>+91-0014253665/ +9-7878787895 </p>
-            <div class="follow">
-                <h4>Connect With Us:</h4>
-                <div class="icon">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                </div>
+	<footer>
+        <section class="d-flex align-items-center" style="height:70px; background-color: black;">
+            <a href="#" class="text-white text-decoration-none karwaan" style=" margin-left: 12px;">Karwaan Films</a>
+          
+            <div class="ms-auto social-icons">
+              <a href="#" class="text-white me-3">
+                <i class="fa-brands fa-x-twitter fa-lg"></i>
+              </a>
+          
+              <a href="#" class="text-white me-3">
+                <i class="fa-brands fa-facebook-f fa-lg"></i>
+              </a>
+          
+              <a href="#" class="text-white me-3">
+                <i class="fa-brands fa-instagram fa-xl"></i>
+              </a>
+          
+              <a href="#" class="text-white me-3">
+                <i class="fa-brands fa-whatsapp fa-xl"></i>
+              </a>
             </div>
-        </div>
-
-        <div class="col">
-            <h4>About Us:</h4>
-            <a href="/about.html">About Us</a>
-            <a href="">Privacy Policy</a>
-            <a href="">Terms & Conditions</a>
-            <a href="/contact.html">Contact Us</a>
-        </div>
-
-        <div class="col payments">
-            <h4>Secured Payments Gateway</h4>
-            <img src="img/pay/pay.png" alt="">
-        </div>
+        </section>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
-    <script src="js/home.js"></script>
+    <script src="../navbar.js"></script>
 </body>
 
 </html>

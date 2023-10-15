@@ -34,6 +34,7 @@
     text-align: right;
     margin-bottom: 0;
     list-style: none;
+    color: black;
 }
 
 .navbar-collapse {
@@ -69,13 +70,13 @@ a {
 
  .content {
     position: relative;
-    background: rgb(252, 249, 249);
-    color: #070707;
+    background: #FFF;
+    color: #080808;
     width: 100%;
 } 
 
 .navbar-custom.navbar-brand a {
-    color: #030303;
+    color: #fff;
 }
 
 .sidenav {
@@ -84,8 +85,9 @@ a {
     position: fixed;
     z-index: 1;
     top: 0;
+    color: #080808;
     right: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: #fff;
     overflow-x: hidden;
     opacity: 0.9;
 }
@@ -97,7 +99,7 @@ a {
     display: block;
 }
 .sidenav a:hover {
-    color: #fff;
+    color: #0c0c0c;
 }
 .sidenav .closebtn {
     font-size: 36px;
@@ -109,7 +111,7 @@ a {
 }
 .nav-item-seprator {
     font-size: 20px;
-    color: rgba(255,255,255,.5);
+    color: #000;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 10px;
@@ -119,36 +121,11 @@ a {
     border-color: transparent;
 }
 
-/* Footer CSS */
-/* footer {
-    position: static;
-    bottom: 0;
-    width: 100%;
-    background-color: #faf8f8;
-  }
-
-.karwaan{
-    font-size: 19px;
-}
-
-.social-icons{
-    font-size: small;
-}
-
-.social-icons a{
-    text-decoration: none;
-}
-
-.social-icons a:hover{
-    opacity: 0.5;
-} */
-
 
 @media only screen and (max-width: 991px) {
     #right-menu-overlay-close-btn {
         top: 23px;
         right: 23px;
-        position: fixed;
     }
     #navbarNavDropdown .nav-item {
         text-align: center;

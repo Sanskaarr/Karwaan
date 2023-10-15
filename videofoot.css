@@ -1,0 +1,35 @@
+/* Footer CSS */
+footer {
+    background-color: #faf3f3;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+.karwaan{
+    font-size: 19px;
+}
+
+.social-icons{
+    font-size: small;
+}
+
+.social-icons a{
+    text-decoration: none;
+}
+
+.social-icons a:hover{
+    opacity: 0.5;
+}
+.a{
+    color: rgb(5, 5, 5);
+}
+.b{
+    color: blue;
+}
+.c{
+    color:  #bb6c54;
+}
+.d{
+    color: rgb(10, 192, 10);
+}

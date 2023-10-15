@@ -3,382 +3,463 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> KARWAAN - Clients</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"/>
-        <link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="responsive.css" rel="stylesheet" type="text/css"/>
-        <link href="client.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="nav.css">
-        <link rel="stylesheet" href="nav2.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="navbar1.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link href="client.css" rel="stylesheet" />
+        <!-- <link rel="stylesheet" href="footer.css"> -->
     </head>
-    <body>
-        <div id="layer2-menu" class=""  style="    background: rgba(0, 0, 0, 0.5);">
-                <div>
-                <div id="layer2-menu" class="content">
-                    <nav class="navbar navbar-expand-lg navbar-custom navbar-dark" id="mainheaderid">
-                        <a class="navbar-brand uppercase mobilecontact" href="contact.html"
-                            style="font-size: 20px; padding-bottom: 1.2rem">Contact us</a>
-                        <div class="collapse navbar-collapse" id="navbarToggler-right-home-menu" style="display: block">
-                           <ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-show">
-                                <li class="nav-item active">
-                                    <a id="logo-btn" class="uppercase" href="/">
-                                        <img src="Front/KARWAANLOGOWHITE (Custom).png" style="margin-top: -7px; height: 70px; margin-right: 0rem" class="logoimage navbar-brand" />
-                                    </a>
-                                    <a id="right-home-btn" class="navbar-brand uppercase" style="margin-right: 0rem;padding-bottom: 0.9rem !important; margin-top: 0px;" href="#">
-                                     <span class=""><i class="fa fa-bars"></i></span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                    </div>
+ <body> 
+	<!-- Navbar Starting -->
+	<div>
+		<div id="mySidenav" class="sidenav animate__animated">
+			<nav class="navbar navbar-expand-lg navbar-custom navbar-dark" style="transition:all 0.3s ease-in-out;">
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ms-auto mt-2 mt-lg-0 animate__animated animate__delay-1s">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="gallery.html" class="nav-link">Picture</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="video.html" class="nav-link" id="navbar-video">Videos</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="client.html" class="nav-link active">Clients</a>
+						</li>
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="about.html" class="nav-link">About</a>
+						</li>
+                        <li class="nav-item nav-item-seprator">/</li>
+                        <li class="nav-item">
+                            <a href="shop.html" class="nav-link">Shop</a>
+                        </li>    
+						<li class="nav-item nav-item-seprator">/</li>
+						<li class="nav-item">
+							<a href="contact.html" class="nav-link">Contact</a>
+						</li>
+						<li>
+							<a href="" id="right-menu-overlay-close-btn" class="closebtn">&times;</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	
+		<div id="layer2-menu" class="content">
+		<nav class="navbar navbar-expand-lg navbar-custom navbar-dark" id="mainheaderid">
+			<a class="navbar-brand uppercase mobilecontact"  href="contact.html" style="font-size: 20px; padding-bottom: 1.2rem; margin-left: 1rem;">Contact Us</a>
+			<div class="collapse navbar-collapse" id="navbarToggler-right-home-menu" style="display: block;"> 
+				<ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-hidden">
+					<!-- <li class="nav-item logodiv">
+						<a id="logo-btn"  class="uppercase" href="index.html">
+							<img src="https://karwaan.b-cdn.net/Front/KARWAANLOGOWHITE%20(Custom).png" class="logoimage navbar-brand" style="height: 80px; margin-top: -13px;">
+						</a>
+					</li> -->
+					<li class="nav-item active mt-15px">
+						<a id="right-home-btn" class="navbar-brand uppercase" style="font-size: 20px; padding-bottom: 1.2rem !important; position: relative; top: 12px;" href="#">Menu <span><i class="fa-solid fa-bars"></i></span></a>
+					</li>
+				</ul>
+	
+				<ul class="navbar-nav ms-auto mt-2 mt-lg-0 mobile-show" style="border:none;">
+					<li class="nav-item active">
+						<!-- <a id="logo-btn" class="uppercase" href="index.html"> 
+						<img class="logoimage navbar-brand" src="https://karwaan.b-cdn.net/Front/KARWAANLOGOWHITE%20(Custom).png" style="height: 70px; margin-top: -7px; margin-right: 0rem;">
+					</a> -->
+					<a id="right-home-btn" class="navbar-brand uppercase" style="margin-right: 1rem; padding-bottom: 0.9rem !important; margin-top: 0px;" href="#">
+					<span><i class="fa-solid fa-bars"></i></span></a>
+					</li>
+				</ul>
+			</div>
+	   </nav>
+	</div>
+	</div>
 
-            <div id="mySidenav" class="sidenav animate__animated">
-                <nav class="navbar navbar-expand-lg navbar-custom navbar-dark" style="transition: all 0.3s ease-in-out">
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ms-auto mt-2 mt-lg-0 animate__animated animate__delay-1s">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item nav-item-seprator">/</li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="gallery.html">Pictures</a>
-                            </li>
-                            <li class="nav-item nav-item-seprator">/</li>
-                            <li class="nav-item">
-                                <a id="navbar-video" class="nav-link" href="video.html">Videos</a>
-                            </li>
-                            <li class="nav-item nav-item-seprator">/</li>
-                            <li class="nav-item">
-                                <a id="navbar-video" class="nav-link" href="client.html">Client</a>
-                            </li>
-                            <li class="nav-item nav-item-seprator">/</li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="blog.html">Blogs</a>
-                            </li>
-                            <li class="nav-item nav-item-seprator">/</li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="shop.html">Shop</a>
-                            </li>
-                            <li class="nav-item nav-item-seprator">/</li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About Us</a>
-                            </li>
-                            <li class="nav-item nav-item-seprator">/</li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                            <li class="nav-item nav-item-seprator">/</li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="login.html">Admin</a>
-                            </li>
-                            <li>
-                                <a id="right-menu-overlay-close-btn" href="#" class="closebtn">&times;</a>
-                            </li>
-                        </ul>
+    <div class="container-fluid clientpage" style="background-color: black;">
+        <div class="row">
+            <h3 class="text-center" style="color: white; margin-top:70px;">Our Clients</h3>
+        </div>
+        <div class="row" style="margin-top: 0px">
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="https://karwaan.b-cdn.net/client/channels4profile.jpg" class="clientimage" style="width: auto" data-was-processed="true">
                     </div>
-                </nav>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b>Oppo</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Journey of Glory 2021 video
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="https://karwaan.b-cdn.net/client/HDFC20Bank20Parivartan20logo2011.jpg" class="clientimage" style="width: auto" data-was-processed="true">
+                    </div>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b>  HDFC</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Multiple Holistic Rural Development Projects
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image" >
+                        <img src="https://karwaan.b-cdn.net/client/7.gif" class="clientimage" alt="" style="height: auto;"/>
+                    </div>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b>  giz</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Reducing plastic waste in Ganga
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image" >
+                        <img src="https://karwaan.b-cdn.net/client/10.png" class="clientimage" alt="" style="    height: auto;"/>
+                    </div>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b>  Saahas</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Reducing plastic waste in Ganga
+                        </p>
+                    </div>
+                </article>
             </div>
         </div>
-            <div class="container-fluid clientpage" style="background-color: black;">
-                <div class="row" style="margin-top: 20px">
-                    <h3 class="text-center" style="color: white">Our Clients</h3>
-                </div>
-                <div class="row" style="margin-top: 100px">
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image">
-                                <img src="client/channels4profile.jpg" class="clientimage" style="width: auto" data-was-processed="true">
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b>Oppo</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Journey of Glory 2021 video
-                                </p>
-                            </div>
-                        </article>
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="https://karwaan.b-cdn.net/client/6.png" class="aviralimage" style="height: auto;
+                             "/>
                     </div>
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image">
-                                <img src="client/HDFC20Bank20Parivartan20logo2011.jpg" class="clientimage" style="width: auto" data-was-processed="true">
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b>  HDFC</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Multiple Holistic Rural Development Projects
-                                </p>
-                            </div>
-                        </article>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b> Aviral</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Reducing plastic waste in Ganga
+                        </p>
                     </div>
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image" >
-                                <img src="client/7.gif" class="clientimage" alt="" style="    height: auto;
-                                     "/>
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b>  giz</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Reducing plastic waste in Ganga
-                                </p>
-                            </div>
-                        </article>
+                </article>
+            </div>
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="https://karwaan.b-cdn.net/client/12.png" class="clientimage" style="height: auto;" alt=""/>
                     </div>
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image" >
-                                <img src="client/10.png" class="clientimage" alt="" style="    height: auto;
-                                     "/>
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b>  Saahas</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Reducing plastic waste in Ganga
-                                </p>
-                            </div>
-                        </article>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b>  Waste Warriors</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Waste management process in Dehradun
+                        </p>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image">
-                                <img src="client/6.png" class="aviralimage" style="height: auto;
-                                     "/>
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b> Aviral</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Reducing plastic waste in Ganga
-                                </p>
-                            </div>
-                        </article>
+                </article>
+            </div>
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="https://karwaan.b-cdn.net/client/11.png" class="clientimage" style="    width:  auto;"
+                             alt=""/>
                     </div>
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image">
-                                <img src="client/12.png" class="clientimage" style="height: auto;" alt=""/>
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b>  Waste Warriors</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Waste management process in Dehradun
-                                </p>
-                            </div>
-                        </article>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b>  Udyogini</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Women empowerment in Uttarakhand
+                        </p>
                     </div>
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image">
-                                <img src="client/11.png" class="clientimage" style="    width:  auto;"
-                                     alt=""/>
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b>  Udyogini</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Women empowerment in Uttarakhand
-                                </p>
-                            </div>
-                        </article>
+                </article>
+            </div>
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="https://karwaan.b-cdn.net/client/Webp.netresizeimage1.jpg" class="clientimage" style="width: auto" data-was-processed="true">
                     </div>
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image">
-                                <img src="client/Webp.netresizeimage1.jpg" class="clientimage" style="width: auto" data-was-processed="true">
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b> T series</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Aerial footage of Kashmir in a music video
-                                </p>
-                            </div>
-                        </article>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b> T series</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Aerial footage of Kashmir in a music video
+                        </p>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image" >
-                                <img src="client/Webp.netresizeimage1.png" alt="" class="wp-image-4141 lazyloaded clientimage" style="width: 100%" height="94" data-lazy-src="https://www.insanetraveller.com/wp-content/uploads/2020/06/Webp.net-resizeimage-1.png" data-was-processed="true">
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b> Quaqua</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Travel series of Udaipur, Jaipur, Varanasi, Agra, Sikkim, Darjeeling, Meghalaya, Assam, Manipur, Mizoram, Nagaland
-                                </p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image">
-                                <img src="client/download.jpeg" alt="" class="wp-image-4143 lazyloaded clientimage" width="146" height="87" data-lazy-src="https://www.insanetraveller.com/wp-content/uploads/2020/06/download.jpeg" data-was-processed="true">
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b>  Flying fox</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Adventure sports
-                                </p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image">
-                                <img src="client/13.png" alt="" class="wp-image-4142 lazyloaded clientimage" width="178" height="59" data-lazy-srcset="https://www.insanetraveller.com/wp-content/uploads/2020/06/Neemrana_new_logo_zqdki3.png 355w, https://www.insanetraveller.com/wp-content/uploads/2020/06/Neemrana_new_logo_zqdki3-300x100.png 300w" data-lazy-sizes="(max-width: 178px) 100vw, 178px" data-lazy-src="https://www.insanetraveller.com/wp-content/uploads/2020/06/Neemrana_new_logo_zqdki3.png" sizes="(max-width: 178px) 100vw, 178px" srcset="https://www.insanetraveller.com/wp-content/uploads/2020/06/Neemrana_new_logo_zqdki3.png 355w, https://www.insanetraveller.com/wp-content/uploads/2020/06/Neemrana_new_logo_zqdki3-300x100.png 300w" data-was-processed="true">
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b> Nemrana hotels</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Luxury hotel promo
-                                </p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image" >
-                                <img src="client/cherrapunji.png" style="height: auto;" alt="" class="wp-image-4137 lazyloaded clientimage" width="143" height="75" data-lazy-src="https://www.insanetraveller.com/wp-content/uploads/2020/06/cherrapunji.png" data-was-processed="true"> 
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b>Cherrapunjee Holiday resort</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Resort promo
-                                </p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image">
-                                <img src="client/ttilogo244x71trans1.png" style="    height: auto;"alt="" class="wp-image-4146 lazyloaded clientimage" >
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b>  To Travel India</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Jodhpur, Jaipur, Udaipur 
-                                </p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image">
-                                <img src="client/download.png" alt="" class="wp-image-4145 lazyloaded clientimage" width="145" height="87" data-lazy-src="https://www.insanetraveller.com/wp-content/uploads/2020/06/download.png" data-was-processed="true">
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b> William penn</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Product promo
-                                </p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image" >
-                                <img src="client/logo1300x168.png" alt="" class="wp-image-4144 lazyloaded clientimage" width="188" height="105" data-lazy-srcset="https://www.insanetraveller.com/wp-content/uploads/2020/06/logo1.png 750w, https://www.insanetraveller.com/wp-content/uploads/2020/06/logo1-300x168.png 300w" data-lazy-sizes="(max-width: 188px) 100vw, 188px" data-lazy-src="https://www.insanetraveller.com/wp-content/uploads/2020/06/logo1.png" sizes="(max-width: 188px) 100vw, 188px" srcset="https://www.insanetraveller.com/wp-content/uploads/2020/06/logo1.png 750w, https://www.insanetraveller.com/wp-content/uploads/2020/06/logo1-300x168.png 300w" data-was-processed="true">
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b>Rohida resorts</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Osian resort promo, all India travel series
-                                </p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <article class="blog-card">
-                            <div class="blog-card__image">
-                                <img style="width: auto;" src="client/Webp.netresizeimage2.png" alt="" class="wp-image-4148 lazyloaded clientimage" width="79" height="79"   data-was-processed="true">
-                            </div>
-                            <div class="blog-card__title">
-                                <a href="javascript:;">
-                                    <p class="fs-15-mh-30">
-                                        <b> Big yellow door</b>
-                                    </p>
-                                </a>
-                                <p class="blogdescription">
-                                    Paper floors
-                                </p>
-                            </div>
-                        </article>
-                    </div> 
-                </div>
+                </article>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-            crossorigin="anonymous"
-        ></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
-        <script src="js/index.js"></script>
-        <script src="js/home.js"></script>
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image" >
+                        <img src="https://karwaan.b-cdn.net/client/Webp.netresizeimage1.png" alt="" class="wp-image-4141 lazyloaded clientimage" style="width: 100%" height="94" data-lazy-src="https://www.insanetraveller.com/wp-content/uploads/2020/06/Webp.net-resizeimage-1.png" data-was-processed="true">
+                    </div>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b> Quaqua</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Travel series of Udaipur, Jaipur, Varanasi, Agra, Sikkim, Darjeeling, Meghalaya, Assam, Manipur, Mizoram, Nagaland
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="https://karwaan.b-cdn.net/client/download.jpeg" alt="" class="wp-image-4143 lazyloaded clientimage" width="146" height="87" data-lazy-src="https://www.insanetraveller.com/wp-content/uploads/2020/06/download.jpeg" data-was-processed="true">
+                    </div>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b>  Flying fox</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Adventure sports
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="https://karwaan.b-cdn.net/client/13.png" alt="" class="wp-image-4142 lazyloaded clientimage" width="178" height="59" data-lazy-srcset="https://www.insanetraveller.com/wp-content/uploads/2020/06/Neemrana_new_logo_zqdki3.png 355w, https://www.insanetraveller.com/wp-content/uploads/2020/06/Neemrana_new_logo_zqdki3-300x100.png 300w" data-lazy-sizes="(max-width: 178px) 100vw, 178px" data-lazy-src="https://www.insanetraveller.com/wp-content/uploads/2020/06/Neemrana_new_logo_zqdki3.png" sizes="(max-width: 178px) 100vw, 178px" srcset="https://www.insanetraveller.com/wp-content/uploads/2020/06/Neemrana_new_logo_zqdki3.png 355w, https://www.insanetraveller.com/wp-content/uploads/2020/06/Neemrana_new_logo_zqdki3-300x100.png 300w" data-was-processed="true">
+                    </div>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b> Nemrana hotels</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Luxury hotel promo
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image" >
+                        <img src="https://karwaan.b-cdn.net/client/cherrapunji.png" style="height: auto;" alt="" class="wp-image-4137 lazyloaded clientimage" width="143" height="75" data-lazy-src="https://www.insanetraveller.com/wp-content/uploads/2020/06/cherrapunji.png" data-was-processed="true"> 
+                    </div>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b>Cherrapunjee Holiday resort</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Resort promo
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+                <div class="row">
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="https://karwaan.b-cdn.net/client/ttilogo244x71trans1.png" style="    height: auto;"alt="" class="wp-image-4146 lazyloaded clientimage" >
+                    </div>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b>  To Travel India</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Jodhpur, Jaipur, Udaipur 
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="https://karwaan.b-cdn.net/client/download.png" alt="" class="wp-image-4145 lazyloaded clientimage" width="145" height="87" data-lazy-src="https://www.insanetraveller.com/wp-content/uploads/2020/06/download.png" data-was-processed="true">
+                    </div>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b> William penn</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Product promo
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image" >
+                        <img src="https://karwaan.b-cdn.net/client/logo1300x168.png" alt="" class="wp-image-4144 lazyloaded clientimage" width="188" height="105" data-lazy-srcset="https://www.insanetraveller.com/wp-content/uploads/2020/06/logo1.png 750w, https://www.insanetraveller.com/wp-content/uploads/2020/06/logo1-300x168.png 300w" data-lazy-sizes="(max-width: 188px) 100vw, 188px" data-lazy-src="https://www.insanetraveller.com/wp-content/uploads/2020/06/logo1.png" sizes="(max-width: 188px) 100vw, 188px" srcset="https://www.insanetraveller.com/wp-content/uploads/2020/06/logo1.png 750w, https://www.insanetraveller.com/wp-content/uploads/2020/06/logo1-300x168.png 300w" data-was-processed="true">
+                    </div>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b>Rohida resorts</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Osian resort promo, all India travel series
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image">
+                        <img style="width: auto;" src="https://karwaan.b-cdn.net/client/Webp.netresizeimage2.png" alt="" class="wp-image-4148 lazyloaded clientimage" width="79" height="79"   data-was-processed="true">
+                    </div>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b> Big yellow door</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Paper floors
+                        </p>
+                    </div>
+                </article>
+            </div> 
+        </div>
 
-    </body>
+
+
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="https://karwaan.b-cdn.net/client/MamtaLogo_TransparentBG.png" style="    height: auto;"alt="" class="wp-image-4146 lazyloaded clientimage" >
+                    </div>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b>  Mamta HIMC</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Jodhpur, Jaipur, Udaipur 
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="https://karwaan.b-cdn.net/client/Oracle_rgb_%23c74634.png" alt="" class="wp-image-4145 lazyloaded clientimage" width="145" height="87" data-lazy-src="https://www.insanetraveller.com/wp-content/uploads/2020/06/download.png" data-was-processed="true">
+                    </div>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b> Oracle</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Product promo
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <article class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="https://karwaan.b-cdn.net/client/PB-Logo.svg" alt="" class="wp-image-4145 lazyloaded clientimage" width="145" height="87" data-lazy-src="https://www.insanetraveller.com/wp-content/uploads/2020/06/download.png" data-was-processed="true">
+                    </div>
+                    <div class="blog-card__title">
+                        <a href="javascript:;">
+                            <p class="fs-15-mh-30">
+                                <b> Project Baala</b>
+                            </p>
+                        </a>
+                        <p class="blogdescription">
+                            Product promo
+                        </p>
+                    </div>
+                </article>
+            </div>
+    </div>
+</div>
+
+<footer style="background-color: #000;">
+    <section class="d-flex align-items-center" style="height:70px; background-color: black;">
+        <a href="#" class="text-white text-decoration-none karwaan" style=" margin-left: 12px;">Karwaan Films</a>
+      
+        <div class="ms-auto social-icons">
+          <a href="#" class="text-white me-3">
+            <i class="fa-brands fa-x-twitter fa-lg"></i>
+          </a>
+      
+          <a href="#" class="text-white me-3">
+            <i class="fa-brands fa-facebook-f fa-lg"></i>
+          </a>
+      
+          <a href="#" class="text-white me-3">
+            <i class="fa-brands fa-instagram fa-xl"></i>
+          </a>
+      
+          <a href="#" class="text-white me-3">
+            <i class="fa-brands fa-whatsapp fa-xl"></i>
+          </a>
+        </div>
+    </section>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="navbar.js"></script>
+</body>
 </html>
+
