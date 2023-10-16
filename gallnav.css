@@ -34,7 +34,7 @@
     text-align: right;
     margin-bottom: 0;
     list-style: none;
-    color: black;
+    color: #fff;
 }
 
 .navbar-collapse {
@@ -85,7 +85,7 @@ a {
     position: fixed;
     z-index: 1;
     top: 0;
-    color: #080808;
+    color: #000;
     right: 0;
     background: #fff;
     overflow-x: hidden;
