@@ -1,22 +1,5 @@
-@import url("https://netdna.bootstrapcdn.com/font-awesome/6.4.2/css/font-awesome.css");
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
-*{
-    box-sizing: border-box;
-    cursor: pointer !important;
-    font-family: 'Poppins', sans-serif;
-}      
-  @media only screen and (max-width:370px){
-           .logoimage{
-            display: none;
-           }
-        }
-        @media only screen and (max-width:1000px){
-            body{
-             height:100%;
-             max-height: 100%;
-            }
-         }
 
 .navbar-brand {
     font-size: 1.5rem;
@@ -34,7 +17,6 @@
     text-align: right;
     margin-bottom: 0;
     list-style: none;
-    color: #fff;
 }
 
 .navbar-collapse {
@@ -61,19 +43,18 @@
 
 a {
     cursor: pointer !important;
-    text-decoration: none;
 }
 
 .uppercase {
     text-transform: uppercase;
 }
 
- .content {
-    position: relative;
-    background: #FFF;
-    color: #080808;
+.content {
+    position: absolute;
+    background: black;
+    color: #f1f1f1;
     width: 100%;
-} 
+}
 
 .navbar-custom.navbar-brand a {
     color: #fff;
@@ -85,9 +66,8 @@ a {
     position: fixed;
     z-index: 1;
     top: 0;
-    color: #000;
     right: 0;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.8);
     overflow-x: hidden;
     opacity: 0.9;
 }
@@ -99,7 +79,7 @@ a {
     display: block;
 }
 .sidenav a:hover {
-    color: #0c0c0c;
+    color: #f1f1f1;
 }
 .sidenav .closebtn {
     font-size: 36px;
@@ -111,21 +91,17 @@ a {
 }
 .nav-item-seprator {
     font-size: 20px;
-    color: #000;
+    color: rgba(255,255,255,.5);
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 10px;
 }
 
-.navbar-dark .navbarToggler{
-    border-color: transparent;
-}
-
-
 @media only screen and (max-width: 991px) {
     #right-menu-overlay-close-btn {
         top: 23px;
         right: 23px;
+        position: fixed;
     }
     #navbarNavDropdown .nav-item {
         text-align: center;

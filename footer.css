@@ -3,7 +3,7 @@ footer {
     position: static;
     bottom: 0;
     width: 100%;
-    background-color: #fafafa;
+    background-color: #fff;
   }
 
 .karwaan{
@@ -11,19 +11,19 @@ footer {
     color: black;
 }
 .a{
-    color: black;
+    color: #000000ea;
 }
 .b{
-    color: black;
+    color: #000000ea;
 }
 .c{
-    color: black ;
+    color:  #000000ea;
 }
 .d{
-    color: black;
+    color: #000000ea;
 }
 .social-icons{
-    font-size: small;
+    font-size: medium;
 }
 
 .social-icons a{

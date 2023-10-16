@@ -38,16 +38,14 @@ p {
 }
 
 button.normal{
-    font-size: 14px;
-    font-weight: 600;
-    padding: 15px 30px;
-    color: #000;
-    background-color: #fff;
-    border-radius: 4px;
     cursor: pointer;
     border: none; 
     outline: none;
     transition: 0.2s;
+    background-color: #FFF;
+    color: #000;
+    padding: 8px 40px 8px 40px;
+    font-size: 14px;
 }
 
 #opening{ 
@@ -111,11 +109,11 @@ button.normal{
 }
 
 #opening button{    
-    background-color: #073866;
-    border-radius: 50px;
-    color: #f4f8f8;
+    background-color: #fff;
+    /* border-radius: 50px; */
+    color: #000;
     border: 0;
-    padding: 14px 80px 14px 65px;
+    padding: 8px 40px 8px 40px;
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 700;
@@ -125,8 +123,8 @@ button.normal{
      animation-fill-mode: both;
 }
 #opening button:hover{
-  color:rgb(146, 233, 228);
-  background: #000;
+  color:#465b52;
+  /* background: #fff; */
  
 }
 
@@ -168,6 +166,7 @@ button.normal{
 
 
 /* Product Details */
+
 #prodetails{
     display: flex;
     /* margin-top: 20px; */
