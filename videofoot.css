@@ -1,6 +1,6 @@
 /* Footer CSS */
 footer {
-    background-color: #faf3f3;
+    background-color: white;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -22,14 +22,14 @@ footer {
     opacity: 0.5;
 }
 .a{
-    color: rgb(5, 5, 5);
+    color: black;
 }
 .b{
-    color: blue;
+    color: black;
 }
 .c{
-    color:  #bb6c54;
+    color: black;
 }
 .d{
-    color: rgb(10, 192, 10);
+    color: black;
 }
