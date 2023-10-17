@@ -87,15 +87,15 @@ a {
     top: 0;
     color: #000;
     right: 0;
-    background: #fff;
+    background: #6e6a6a;
     overflow-x: hidden;
-    opacity: 0.9;
+    opacity: 1;
 }
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 20px;
-    color: #818181;
+    color: #fff;
     display: block;
 }
 .sidenav a:hover {
