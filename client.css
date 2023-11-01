@@ -12,14 +12,14 @@
 .clientpage .blog-card {
     width: 85%;
     height: 270px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     overflow: hidden;
     background: #fff;
     display: inline-block;
     margin: 20px 10px;
     vertical-align: top;
     cursor: pointer;
-    box-shadow: 2px 2px lightgrey;
+    /* box-shadow: 2px 2px lightgrey; */
 }
 .clientpage .blog-card__image{
     padding: 30px;
